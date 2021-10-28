@@ -1,0 +1,54 @@
+header {
+    background: #fff
+    min-height: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.logo{
+    max-width: 100px;
+}
+
+nav, #hamburger-menu{
+    display: none;
+}
+
+nav ul {
+    padding: 0px;
+}
+nav li{
+    display: block;
+    text-decoration: underline;
+}
+
+nav a{
+    text-decoration: none; 
+    color: #000000;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    font-style: italic;
+}
+.current{
+    font-weight:bold;
+}
+
+
+.hamburger-label{
+    float: left;
+    color: #000000 
+    margin: 30px;
+    font-size: 1.5em;
+    display: block;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+
+
+
