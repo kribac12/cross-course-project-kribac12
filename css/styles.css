@@ -19,7 +19,7 @@ h1 {
   text-align: center;
 }
 
-.main-h1 {
+.main-h2 {
   margin: 30px;
   text-transform: uppercase;
   color: #003438;
@@ -206,5 +206,4 @@ img {
 }
 .footer-icons {
   max-width: 25px;
-  float: right;
 }
