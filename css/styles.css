@@ -36,6 +36,7 @@ h1 {
 
 .logo {
   max-width: 200px;
+  margin-right: 200px;
 }
 
 nav,
@@ -122,11 +123,11 @@ img {
 .main-exclusive {
   position: relative;
 }
-.text-block {
+.text {
   position: absolute;
-  width: 280px;
-  bottom: 20px;
-  right: 860px;
+  top: 20px;
+  right: 20px;
+  width: 200px;
   background: #003438;
   color: #fff;
   padding: 15px;
@@ -206,4 +207,5 @@ img {
 }
 .footer-icons {
   max-width: 25px;
+  width: 100%;
 }
