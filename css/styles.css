@@ -207,5 +207,26 @@ img {
 }
 .footer-icons {
   max-width: 25px;
-  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .logo {
+    float: right;
+  }
+
+  nav {
+    display: inline-block;
+  }
+
+  .hamburger-label {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+  }
+  li {
+    display: inline-block;
+    position: absolute;
+  }
 }
