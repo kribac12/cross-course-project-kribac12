@@ -44,9 +44,14 @@ header > * {
   padding: 0 50 0 0px;
 }
 
+.search-web {
+  display: none;
+}
+
 .logo {
-  max-width: 200px;
+  max-width: 100px;
   margin-right: 200px;
+  margin-top: 0px;
 }
 
 nav,
@@ -215,12 +220,14 @@ img {
 
 @media (min-width: 600px) {
   .logo {
-    float: right;
+    margin: 0 auto;
   }
 
   nav {
     display: inline-block;
     margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
   }
 
   .hamburger-label {
@@ -233,9 +240,35 @@ img {
   li {
     display: inline-block;
     flex-wrap: wrap;
+    margin: 30px 20px 10px 50px;
+  }
+
+  .contact,
+  .about {
+    display: none;
   }
 
   .search {
     display: none;
+  }
+
+  .search input[type="text"] {
+    display: none;
+  }
+
+  .search-web {
+    display: inline-block;
+    margin: 30px;
+  }
+
+  .menu-icons {
+    display: inline-block;
+    margin: 30px;
+  }
+
+  .logo {
+    max-width: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
   }
 }
