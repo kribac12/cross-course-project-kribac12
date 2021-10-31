@@ -22,26 +22,21 @@ header {
   min-height: 100px;
   border: 1px #707070;
   border-style: solid none;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  grid-template-rows: 1fr;
   position: sticky;
   padding-top: 30px;
-}
-
-header > * {
-  flex: 1;
 }
 
 .search input[type="text"] {
   width: 100%;
 }
 .search {
-  flex: 0 0 100%;
-  flex-grow: 1;
+  grid-column: 1/-1;
   width: 100%;
-  margin: 0 auto;
   display: block;
-  padding: 0 50 0 0px;
+  padding: 0px;
 }
 
 .search-web {
@@ -50,8 +45,13 @@ header > * {
 
 .logo {
   max-width: 100px;
-  margin-right: 200px;
+  margin-left: 80px;
+  margin-right: 100px;
   margin-top: 0px;
+}
+
+.menu-icons {
+  padding-top: 10px;
 }
 
 nav,
@@ -92,7 +92,7 @@ nav {
 .hamburger-label {
   float: left;
   color: #000000;
-  margin: 0 0 0 10px;
+  padding: 10px;
   font-size: 1.5em;
   display: block;
 }
@@ -124,6 +124,21 @@ body {
   font-weight: bold;
 }
 
+.cta-small {
+  background-color: #ffa800;
+  color: #fff;
+  grid-column: 2;
+  grid-row: 2;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  min-width: 50px;
+  min-height: 15px;
+  font-size: 1em;
+  padding: 15px 30px;
+}
+
 /*HOME PAGE*/
 
 img {
@@ -141,7 +156,7 @@ img {
 .text {
   position: absolute;
   top: 20px;
-  right: 20px;
+  left: 20px;
   width: 200px;
   background: #003438;
   color: #fff;
@@ -151,7 +166,11 @@ img {
 }
 
 .featured {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin: 50px 5px 30px 5px;
+  width: 100%;
+  grid-gap: 5px;
 }
 
 .featured h2 {
@@ -159,20 +178,21 @@ img {
   text-align: center;
 }
 
-.bestseller-img {
-  grid-column: 1/-1;
+.featured img {
+  width: 100%;
 }
 
-.products-grid {
+.products img {
+  grid-column: -1/1;
+}
+
+.products {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr;
 }
 
-.bag {
-  grid-column: 2;
-  grid-row: 2;
-  max-width: 40px;
+.featured .cta {
+  grid-column: -1/1;
 }
 
 /*FOOTER*/
@@ -219,14 +239,17 @@ img {
 }
 
 @media (min-width: 600px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .logo {
+    float: left;
     margin: 0 auto;
   }
 
   nav {
     display: inline-block;
-    margin: 0 auto;
-    text-align: center;
     background-color: transparent;
   }
 
@@ -236,11 +259,12 @@ img {
 
   ul {
     display: flex;
+    margin-left: 250px;
+    order: 2;
   }
+
   li {
     display: inline-block;
-    flex-wrap: wrap;
-    margin: 30px 20px 10px 50px;
   }
 
   .contact,
@@ -252,18 +276,22 @@ img {
     display: none;
   }
 
-  .search input[type="text"] {
-    display: none;
-  }
-
   .search-web {
     display: inline-block;
-    margin: 30px;
+    padding: 6px;
+    order: 3;
+    margin-left: 450px;
+    margin-top: 40px;
+  }
+
+  .search-web input[type="text"] {
+    width: 100px;
   }
 
   .menu-icons {
     display: inline-block;
-    margin: 30px;
+    margin: 40px;
+    order: 4;
   }
 
   .logo {
