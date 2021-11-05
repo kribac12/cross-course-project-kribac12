@@ -1,0 +1,72 @@
+@media (min-width: 600px) {
+  header {
+    display: grid;
+    grid-template-areas:
+      "logo . . .  menu-icons"
+      "logo nav nav nav search";
+  }
+  .logo {
+    float: left;
+    margin: 0 auto;
+  }
+
+  nav {
+    display: flex;
+    background-color: transparent;
+  }
+
+  .hamburger-label {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    margin-left: 250px;
+    order: 2;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  .main-running {
+    background-image: url("/images/header-image.jpg");
+    background-size: cover;
+    min-height: 400px;
+  }
+
+  .welcome-text {
+    font-size: 1.2em;
+    padding-left: 10px;
+    padding-top: 10px;
+    max-width: 400px;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .search-web {
+    display: inline-block;
+    padding: 6px;
+    order: 3;
+    margin-left: 450px;
+    margin-top: 40px;
+  }
+
+  .search-web input[type="text"] {
+    width: 100px;
+  }
+
+  .menu-icons {
+    display: inline-block;
+    margin: 40px;
+    order: 4;
+  }
+
+  .logo {
+    max-width: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+  }
+}

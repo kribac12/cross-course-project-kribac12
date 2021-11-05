@@ -1,0 +1,41 @@
+.form-input,
+textarea {
+  border: 2px solid #ffa800;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+  height: 80%;
+}
+
+textarea {
+  height: 150px;
+}
+
+.contact {
+  max-width: 95%;
+  margin: 10px;
+  text-align: left;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.form-wrapper > * {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media > * {
+  display: flex;
+  flex: 1;
+}
+.orange-icon {
+  margin-right: 10px;
+}
