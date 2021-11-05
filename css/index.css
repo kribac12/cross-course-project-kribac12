@@ -9,7 +9,7 @@ img {
 }
 
 .main-running {
-  background-image: url("/images/header-image-small.jpg") no-repeat;
+  background-image: url("/images/header-image-small.jpg");
   background-size: cover;
   min-height: 400px;
 }
@@ -17,7 +17,7 @@ img {
 .welcome-text {
   text-align: left;
   color: #fff;
-  text-decoration-style: double;
+  text-shadow: #0000;
   padding-left: 10px;
   padding-top: 200px;
   max-width: 320px;
@@ -29,7 +29,7 @@ img {
 
 .featured {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin: 50px 5px 30px 5px;
   width: 100%;
   grid-gap: 5px;

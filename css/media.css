@@ -29,6 +29,10 @@
     display: inline-block;
   }
 
+  h1 {
+    font-size: 2em;
+  }
+
   .main-running {
     background-image: url("/images/header-image.jpg");
     background-size: cover;

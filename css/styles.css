@@ -1,22 +1,19 @@
 @import "imports/links.css";
 @import "imports/variables.css";
 
-@font-face {
-  font-family: "Palatino.ttf";
-  src: url(../fonts/Palatino.ttf) format("truetype");
-}
-
 /*GLOBAL STYLES*/
 
 h1,
 h2 {
-  font-family: "Palatino.ttf", Tahoma, Verdana, sans-serif;
+  font-family: "Zen Antique", Tahoma, Verdana, sans-serif;
 }
 
 h1 {
   text-align: center;
-  font-family: "Palatino.ttf", Tahoma, Verdana, sans-serif;
-  margin: 30px;
+  font-family: "Zen Antique", Tahoma, Verdana, sans-serif;
+  padding-top: 30px;
+  font-size: 1.3em;
+  font-weight: bold;
   text-transform: uppercase;
   color: #003438;
 }
@@ -100,7 +97,7 @@ nav {
   background-color: #fff;
   position: absolute;
   left: 0px;
-  top: 65px;
+  top: 72px;
   z-index: 1;
 }
 
