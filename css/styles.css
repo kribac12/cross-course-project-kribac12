@@ -6,16 +6,19 @@
 h1,
 h2 {
   font-family: "Zen Antique", Tahoma, Verdana, sans-serif;
+  color: #003438;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 h1 {
   text-align: center;
-  font-family: "Zen Antique", Tahoma, Verdana, sans-serif;
   padding-top: 30px;
   font-size: 1.3em;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #003438;
+}
+
+h2 {
+  font-size: 1.1em;
 }
 
 body {
