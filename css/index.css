@@ -9,18 +9,22 @@ img {
 }
 
 .main-running {
-  background-image: url("/images/header-image-small.jpg");
+  background-image: url("/images/Homepage/header-image-small.jpg");
   background-size: cover;
   min-height: 400px;
 }
 
 .welcome-text {
   text-align: left;
-  color: #fff;
+  color: var(--color-header-nav);
   text-shadow: #0000;
   padding-left: 10px;
   padding-top: 200px;
   max-width: 320px;
+}
+
+.welcome-text h2 {
+  color: var(--color-header-nav);
 }
 
 .main-exclusive {

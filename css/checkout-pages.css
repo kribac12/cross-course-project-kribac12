@@ -1,0 +1,71 @@
+ul.breadcrumbs {
+  padding: 10px 20px;
+  list-style: none;
+}
+ul.breadcrumbs li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumbs li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumbs li a {
+  color: #000;
+  text-decoration: none;
+}
+ul.breadcrumbs li a:hover {
+  color: #02383d;
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: bold;
+  color: #02383d;
+}
+
+.breadcrumbs-container {
+  background-color: #f2f0f0;
+  width: 100%;
+}
+
+.checkout h2,
+h5,
+h3,
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.checkout h5 {
+  text-transform: uppercase;
+  color: #02383d;
+}
+
+.checkout h3 {
+  font-weight: bold;
+}
+
+.summary h3 {
+  text-transform: uppercase;
+}
+
+.orange-price {
+  color: #ff4400;
+  font-weight: bold;
+}
+
+.cta-yellow {
+  margin: 20px 65px 20px;
+}
+
+.checkout {
+  margin-bottom: 20px;
+}
+
+.shopping-bag {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}

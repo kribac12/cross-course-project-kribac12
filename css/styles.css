@@ -90,7 +90,7 @@ nav a:hover {
   font-weight: bold;
 }
 .current {
-  background-color: #003438;
+  background-color: #02383d;
   color: var(--color-header-nav);
   font-weight: bold;
   border-radius: 5px;
