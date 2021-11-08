@@ -4,7 +4,6 @@ main {
 
 ul.breadcrumbs {
   padding: 10px 20px;
-  list-style: none;
 }
 ul.breadcrumbs li {
   display: inline;
@@ -42,15 +41,6 @@ ul.breadcrumbs li a:hover {
   margin-top: 0px;
 }
 
-.summary h3 {
-  text-transform: uppercase;
-}
-
-.orange-price {
-  color: #ff4400;
-  font-weight: bold;
-}
-
 .cta-yellow {
   margin: 20px 65px 20px;
 }
@@ -68,6 +58,7 @@ ul.breadcrumbs li a:hover {
 .shopping-bag h1 {
   grid-column: -1/1;
   text-align: left;
+  padding-top: 0px;
 }
 
 .checkout-image {
@@ -97,6 +88,10 @@ ul.breadcrumbs li a:hover {
 .summary h5 {
   grid-column: -1/1;
   margin-bottom: 0px;
+}
+
+.summary h3 {
+  text-transform: uppercase;
 }
 
 .summary-info1 {
