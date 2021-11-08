@@ -1,3 +1,7 @@
+main {
+  color: var(--color-text);
+}
+
 ul.breadcrumbs {
   padding: 10px 20px;
   list-style: none;
@@ -9,20 +13,20 @@ ul.breadcrumbs li {
 ul.breadcrumbs li + li:before {
   padding: 8px;
   color: black;
-  content: "/\00a0";
+  content: "|";
 }
 ul.breadcrumbs li a {
   color: #000;
   text-decoration: none;
 }
 ul.breadcrumbs li a:hover {
-  color: #02383d;
+  color: var(--color-text);
   text-decoration: underline;
 }
 
 .active {
   font-weight: bold;
-  color: #02383d;
+  color: var(--color-text);
 }
 
 .breadcrumbs-container {
@@ -30,21 +34,12 @@ ul.breadcrumbs li a:hover {
   width: 100%;
 }
 
-.checkout h2,
-h5,
-h3,
-p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .checkout h5 {
   text-transform: uppercase;
-  color: #02383d;
 }
 
-.checkout h3 {
-  font-weight: bold;
+.shopping-bag h3 {
+  margin-top: 0px;
 }
 
 .summary h3 {
@@ -65,7 +60,131 @@ p {
 }
 
 .shopping-bag {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  gap: 10px;
+}
+
+.shopping-bag h1 {
+  grid-column: -1/1;
+  text-align: left;
+}
+
+.checkout-image {
+  grid-column: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.bag-info {
+  display: grid;
+  grid-column: 2;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.shopping-bag p {
+  font-size: 0.7em;
+  color: #585757;
+  margin-bottom: 0px;
+}
+
+.summary {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-bottom: 15px;
+}
+.summary h5 {
+  grid-column: -1/1;
+  margin-bottom: 0px;
+}
+
+.summary-info1 {
+  display: grid;
+  grid-column: 1;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.summary-info2 {
+  display: grid;
+  grid-column: 2;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.summary-info2-orange {
+  color: #ff4417;
+  font-weight: bold;
+}
+
+.top-picks1 {
   display: flex;
-  flex: 1;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.top-picks2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.top-product {
+  width: 100%;
+}
+
+.top-picks h2 {
+  margin-top: 40px;
+}
+
+.checkout p,
+h1,
+h2,
+h3,
+h5 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bag-icon {
+  padding-left: 15px;
+}
+
+.review-points {
+  display: grid;
+  grid-template-columns: auto 2fr 1fr;
+}
+.review-points h2 {
+  grid-column: -1/1;
+}
+
+.review-points1 {
+  font-size: 2em;
+  color: #ff4417;
+}
+
+.review-points1,
+.review-points3 {
+  margin: auto;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.review-points2 {
+  margin: auto;
+  margin-left: 40px;
+}
+
+.reviews {
+  margin-top: 10px;
+}
+
+.review1,
+.review2 {
+  border: 1px solid #707070;
+  border-style: solid none;
+}
+
+.reviews img {
+  margin-left: 10px;
 }
