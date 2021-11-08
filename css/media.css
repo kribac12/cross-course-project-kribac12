@@ -57,6 +57,7 @@
     order: 3;
     margin-left: 450px;
     margin-top: 40px;
+    background-color: #f2f0f0;
   }
 
   .search-web input[type="text"] {

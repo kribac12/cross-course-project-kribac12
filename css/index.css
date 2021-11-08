@@ -33,13 +33,12 @@ img {
 
 .featured {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   margin: 50px 5px 30px 5px;
   width: 100%;
   grid-gap: 5px;
 }
 
-.featured h2 {
+.featured h1 {
   grid-column: -1/1;
   text-align: center;
 }

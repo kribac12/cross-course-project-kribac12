@@ -31,7 +31,6 @@ header {
   border-style: solid none;
   display: grid;
   grid-template-columns: auto 1fr 1fr;
-  grid-template-rows: 1fr;
   position: sticky;
   padding-top: 30px;
   width: var(--width-100);
@@ -39,6 +38,7 @@ header {
 
 .search input[type="text"] {
   width: var(--width-100);
+  background-color: #f2f0f0;
 }
 .search {
   grid-column: 1/-1;
@@ -54,10 +54,8 @@ header {
 
 .logo {
   display: block;
-  max-width: 100px;
-  margin-left: 80px;
-  margin-right: 100px;
-  margin-top: 0px;
+  max-width: 40vw;
+  margin: 0px 100px;
   grid-area: logo;
 }
 
