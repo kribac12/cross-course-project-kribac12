@@ -2,37 +2,6 @@ main {
   color: var(--color-text);
 }
 
-ul.breadcrumbs {
-  padding: 10px 20px;
-}
-ul.breadcrumbs li {
-  display: inline;
-  font-size: 18px;
-}
-ul.breadcrumbs li + li:before {
-  padding: 8px;
-  color: black;
-  content: "|";
-}
-ul.breadcrumbs li a {
-  color: #000;
-  text-decoration: none;
-}
-ul.breadcrumbs li a:hover {
-  color: var(--color-text);
-  text-decoration: underline;
-}
-
-.active {
-  font-weight: bold;
-  color: var(--color-text);
-}
-
-.breadcrumbs-container {
-  background-color: #f2f0f0;
-  width: 100%;
-}
-
 .form-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -51,6 +20,7 @@ ul.breadcrumbs li a:hover {
   border: 2px solid orange;
   border-radius: 5px;
   margin-bottom: 10px;
+  height: 5vh;
 }
 
 .delivery-info label {
@@ -61,13 +31,23 @@ ul.breadcrumbs li a:hover {
   margin: 0px 10px;
 }
 
-.p-gray {
-  color: #6f6f6f;
+select {
+  width: 65vw;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+  font-size: 1em;
 }
 
-select {
-  width: 60vw;
-  margin-bottom: 20px;
+.form-wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  margin: 10px 0px;
 }
 
 @media only screen and (min-width: 1021px) {

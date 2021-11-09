@@ -1,0 +1,9 @@
+section .radio-buttons {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+.item-1,
+.item-2 {
+  margin-bottom: 10px;
+}

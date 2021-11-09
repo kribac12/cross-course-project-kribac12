@@ -34,7 +34,6 @@ img {
 .featured {
   display: grid;
   margin: 50px 5px 30px 5px;
-  width: 100%;
   grid-gap: 5px;
 }
 

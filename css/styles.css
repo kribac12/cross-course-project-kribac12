@@ -1,5 +1,6 @@
 @import "imports/links.css";
 @import "imports/variables.css";
+@import "imports/ui.css";
 
 /*GLOBAL STYLES*/
 
@@ -69,6 +70,8 @@ header {
   padding-top: 10px;
 }
 
+/*NAV*/
+
 nav,
 #hamburger-menu {
   display: none;
@@ -123,4 +126,48 @@ nav {
 body {
   margin: 0px;
   padding: 0px;
+}
+
+/*FOOTER*/
+
+.footer-container {
+  margin: 10px 0px 0px 0px;
+  background-color: #f2f0f0;
+}
+
+.footer {
+  width: 100%;
+  color: #000000;
+  display: grid;
+  justify-content: center;
+  margin: 20px 15px 0px 0px;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.footer-heading h2 {
+  margin-bottom: 1rem;
+}
+
+.footer-heading a {
+  color: #000000;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+  font-weight: bold;
+}
+.footer-icons {
+  display: flex;
+  max-width: 25px;
+  width: 100%;
+}
+
+.footer-icons img {
+  padding: 20px;
 }
