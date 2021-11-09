@@ -85,6 +85,10 @@
     margin-left: 35px;
     margin-right: 35px;
   }
+
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1020px) {
@@ -165,6 +169,10 @@
   p {
     margin-left: 50px;
     margin-right: 50px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
@@ -248,5 +256,9 @@
   p {
     margin-left: 70px;
     margin-right: 70px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

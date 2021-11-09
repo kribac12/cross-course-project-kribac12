@@ -32,3 +32,49 @@ ul.breadcrumbs li a:hover {
   background-color: #f2f0f0;
   width: 100%;
 }
+
+.form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  flex: 100%;
+  flex-direction: column;
+}
+
+.delivery-info input {
+  border: 2px solid orange;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.delivery-info label {
+  margin-bottom: 5px;
+}
+
+.delivery-info {
+  margin: 0px 10px;
+}
+
+.p-gray {
+  color: #6f6f6f;
+}
+
+select {
+  width: 60vw;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1021px) {
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4 {
+    flex: 50%;
+  }
+}
