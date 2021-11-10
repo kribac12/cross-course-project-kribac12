@@ -1,0 +1,30 @@
+.filter {
+  text-align: center;
+}
+
+.women-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+  gap: 5px;
+}
+
+.product {
+  width: 46vw;
+  margin-top: 15px;
+}
+
+.item {
+  display: grid;
+}
+
+h5 {
+  margin: 5px 0px;
+}
+p {
+  margin: 8px 0px 0px 0px;
+}
+
+.shopping-bag {
+  margin-left: 130px;
+}
