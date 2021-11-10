@@ -72,6 +72,10 @@ main {
   grid-column-end: 2;
 }
 
+.top-picks {
+  margin: 10px;
+}
+
 .top-picks1 {
   display: flex;
   flex-wrap: wrap;
