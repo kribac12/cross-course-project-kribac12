@@ -70,6 +70,12 @@ header {
   padding-top: 10px;
 }
 
+.orange-price {
+  color: #ff4417;
+  font-weight: bold;
+  font-size: 1em;
+}
+
 /*NAV*/
 
 nav,

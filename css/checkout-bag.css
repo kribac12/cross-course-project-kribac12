@@ -72,11 +72,6 @@ main {
   grid-column-end: 2;
 }
 
-.summary-info2-orange {
-  color: #ff4417;
-  font-weight: bold;
-}
-
 .top-picks1 {
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,40 @@
+.jacket-specific {
+  width: 100%;
+  height: auto;
+  margin: 10px 0px;
+  grid-column: -1/1;
+}
+
+.jacket-info {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+h5,
+p {
+  margin: 0px 10px 10px 10px;
+}
+
+p {
+  font-size: 0.6em;
+}
+
+.choose-size {
+  margin: 0px 0px 30px 10px;
+}
+
+.sizes {
+  width: 50vw;
+}
+
+.cta-yellow {
+  margin: 22%;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+.information {
+  padding: 40px 0px;
+}

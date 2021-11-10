@@ -13,6 +13,7 @@ ul.breadcrumbs li + li:before {
 ul.breadcrumbs li a {
   color: #000;
   text-decoration: none;
+  font-size: 0.7em;
 }
 ul.breadcrumbs li a:hover {
   color: var(--color-text);
