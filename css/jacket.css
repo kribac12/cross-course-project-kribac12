@@ -1,7 +1,7 @@
 .jacket-specific {
   width: 100%;
   height: auto;
-  margin: 10px 0px;
+  margin: 2px 0px;
   grid-column: -1/1;
 }
 
@@ -16,7 +16,7 @@ p {
 }
 
 p {
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 
 .choose-size {
@@ -37,8 +37,4 @@ ul.a {
 
 .information {
   padding: 40px 0px;
-}
-
-.top-picks3 {
-  display: none;
 }

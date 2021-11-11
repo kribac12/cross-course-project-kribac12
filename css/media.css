@@ -76,6 +76,7 @@
 
   .top-picks {
     display: flex;
+    justify-content: space-evenly;
   }
 
   .reviews {
@@ -108,11 +109,13 @@
     width: 50px;
   }
   /*jacket page*/
+
   .information {
     display: flex;
     justify-content: space-between;
   }
 }
+
 /*624*/
 @media only screen and (min-width: 624px) {
   .search-web input[type="text"] {
@@ -170,7 +173,7 @@
   }
 }
 
-@media only screen and (min-width: 1020) {
+@media only screen and (min-width: 1020px) {
   .hamburger-label {
     display: none;
   }

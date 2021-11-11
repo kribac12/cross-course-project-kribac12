@@ -136,6 +136,59 @@ nav a {
   display: block;
 }
 
+/*REVIEWS*/
+.review-points {
+  display: flex;
+}
+
+.review-points1 {
+  font-size: 2em;
+  color: #ff4417;
+}
+
+.review1,
+.review2 {
+  border: 1px solid #707070;
+  border-style: solid none;
+}
+
+.reviews img {
+  margin-left: 10px;
+}
+.reviews-text {
+  font-size: 0.8rem;
+}
+
+/*TOP PICKS*/
+
+.top-picks1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.top-picks2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.top-product {
+  width: 100%;
+}
+
+.top-picks h2 {
+  margin-top: 40px;
+}
+
+.top-picks-section {
+  margin: 10px;
+}
+
+.reviews {
+  margin: 10px;
+}
+
 /*FOOTER*/
 
 .footer-container {
