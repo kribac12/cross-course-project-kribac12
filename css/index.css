@@ -9,9 +9,11 @@ img {
 }
 
 .main-running {
-  background-image: url("/images/Homepage/header-image-small.jpg");
+  background: rgba(0, 0, 0, 0.3) url("/images/Homepage/header-image-small.jpg");
+  background-blend-mode: darken;
   background-size: cover;
   min-height: 400px;
+  margin-top: 10px;
 }
 
 .welcome-text {

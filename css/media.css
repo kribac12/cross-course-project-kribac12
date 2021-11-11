@@ -1,35 +1,14 @@
 /*768*/
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-  header {
-    display: grid;
-    grid-template-areas:
-      "logo . . .  menu-icons"
-      "logo nav nav nav search";
-  }
-  .logo {
-    float: left;
-    margin: 0 auto;
-  }
-
-  nav {
-    display: flex;
-    background-color: transparent;
-  }
-
+@media only screen and (min-width: 500px) and (max-width: 768px) {
   .hamburger-label {
     display: none;
   }
-
-  ul {
+  .main-header {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 250px;
-    order: 2;
-  }
-
-  nav li {
-    display: inline-block;
-    text-decoration: none;
+    justify-content: space-between;
+    background: var(--color-header-nav);
+    align-items: center;
+    border-bottom: 1px solid #707070;
   }
 
   h1 {
@@ -37,7 +16,11 @@
   }
 
   .main-running {
-    background-image: url("/images/Homepage/header-image-small.jpg");
+    background: rgba(0, 0, 0, 0.3) url("/images/Homepage/header-image.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 10px;
   }
 
   .welcome-text {
@@ -47,37 +30,34 @@
     max-width: 400px;
   }
 
+  /*Nav*/
+
+  .main-menu > ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .main-menu > ul > li {
+    display: inline-block;
+    font-size: 0.75rem;
+  }
+
+  nav {
+    display: flex;
+  }
+
   .search {
     display: none;
   }
 
   .search-web {
-    display: inline-block;
-    padding: 6px;
     order: 3;
-    margin-left: 450px;
-    margin-top: 40px;
+    max-width: 90px;
     background-color: #f2f0f0;
   }
 
   .search-web input[type="text"] {
     width: 100px;
-  }
-
-  .menu-icons {
-    display: inline-block;
-    margin: 40px;
-    order: 4;
-  }
-
-  .logo {
-    max-width: 200px;
-    margin-right: 200px;
-    margin-top: 0px;
-  }
-  .about-link,
-  .contact-link {
-    display: none;
   }
 
   .about-main h2,
@@ -92,36 +72,8 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1020px) {
-  header {
-    display: grid;
-    grid-template-areas:
-      "logo . . .  menu-icons"
-      "logo nav nav nav search";
-  }
-  .logo {
-    float: left;
-    margin: 0 auto;
-  }
-
-  nav {
-    display: flex;
-    background-color: transparent;
-  }
-
   .hamburger-label {
     display: none;
-  }
-
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 250px;
-    order: 2;
-  }
-
-  nav li {
-    display: inline-block;
-    text-decoration: none;
   }
 
   h1 {
@@ -129,7 +81,11 @@
   }
 
   .main-running {
-    background-image: url("/images/Homepage/header-image.jpg");
+    background: rgba(0, 0, 0, 0.3) url("/images/Homepage/header-image.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 10px;
   }
 
   .welcome-text {
@@ -139,32 +95,42 @@
     max-width: 400px;
   }
 
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-header-nav);
+    align-items: center;
+    border-bottom: 1px solid #707070;
+  }
+
+  /*Nav*/
+
+  .main-menu > ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .main-menu > ul > li {
+    display: inline-block;
+    font-size: 0.75rem;
+  }
+
+  nav {
+    display: flex;
+  }
+
   .search {
     display: none;
   }
 
   .search-web {
-    display: inline-block;
-    padding: 6px;
     order: 3;
-    margin-left: 450px;
-    margin-top: 40px;
   }
 
   .search-web input[type="text"] {
     width: 100px;
   }
 
-  .menu-icons {
-    display: inline-block;
-    margin: 40px;
-    order: 4;
-  }
-  .logo {
-    max-width: 200px;
-    margin-right: 200px;
-    margin-top: 0px;
-  }
   .about-main h2,
   p {
     margin-left: 50px;
@@ -177,36 +143,8 @@
 }
 
 @media only screen and (min-width: 1021px) {
-  header {
-    display: grid;
-    grid-template-areas:
-      "logo . . .  menu-icons"
-      "logo nav nav nav search";
-  }
-  .logo {
-    float: left;
-    margin: 0 auto;
-  }
-
-  nav {
-    display: flex;
-    background-color: transparent;
-  }
-
   .hamburger-label {
     display: none;
-  }
-
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 250px;
-    order: 2;
-  }
-
-  nav li {
-    display: inline-block;
-    text-decoration: none;
   }
 
   h1 {
@@ -214,7 +152,7 @@
   }
 
   .main-running {
-    background-image: url("/images/Homepage/header-image.jpg");
+    background: rgba(0, 0, 0, 0.3) url("/images/Homepage/header-image.jpg");
   }
 
   .welcome-text {
@@ -224,32 +162,40 @@
     max-width: 400px;
   }
 
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-header-nav);
+    align-items: center;
+    border-bottom: 1px solid #707070;
+  }
+
+  /*Nav*/
+
+  .main-menu > ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .main-menu > ul > li {
+    display: inline-block;
+    font-size: 0.75rem;
+  }
+
+  nav {
+    display: flex;
+  }
+
   .search {
     display: none;
   }
 
   .search-web {
-    display: inline-block;
-    padding: 6px;
     order: 3;
-    margin-left: 450px;
-    margin-top: 40px;
   }
 
   .search-web input[type="text"] {
     width: 100px;
-  }
-
-  .menu-icons {
-    display: inline-block;
-    margin: 40px;
-    order: 4;
-  }
-
-  .logo {
-    max-width: 200px;
-    margin-right: 200px;
-    margin-top: 0px;
   }
 
   .about-main h2,

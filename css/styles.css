@@ -4,6 +4,13 @@
 
 /*GLOBAL STYLES*/
 
+body {
+  margin: 0;
+  font-family: Verdana, helvetica, Tahoma, sans-serif;
+}
+
+/*Text*/
+
 h1,
 h2 {
   font-family: "Zen Antique", Tahoma, Verdana, sans-serif;
@@ -25,21 +32,34 @@ h2 {
 h5 {
   text-transform: uppercase;
 }
+.orange-price {
+  color: #ff4417;
+  font-weight: bold;
+  font-size: 1em;
+}
 
-body {
-  font-family: Verdana, helvetica, Tahoma, sans-serif;
-}
-header {
+/*Main header*/
+
+.main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background: var(--color-header-nav);
-  min-height: 100px;
-  border: 1px #707070;
-  border-style: none none solid none;
-  display: grid;
-  grid-template-columns: auto 3fr 1fr;
-  position: sticky;
-  padding-top: 10px;
-  width: var(--width-100);
+  align-items: center;
 }
+
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  max-width: 20vw;
+  margin: 0;
+}
+
+/*Search*/
 
 .search input[type="text"] {
   width: 90vw;
@@ -56,36 +76,18 @@ header {
 
 .search-web {
   display: none;
-  grid-area: search-web;
-}
-
-.logo {
-  display: block;
-  max-width: 40vw;
-  margin: 0px auto;
-  grid-area: logo;
-}
-
-.menu-icons {
-  padding-top: 10px;
-}
-
-.orange-price {
-  color: #ff4417;
-  font-weight: bold;
-  font-size: 1em;
 }
 
 /*NAV*/
-
 nav,
 #hamburger-menu {
   display: none;
 }
 
-nav ul {
-  padding: 0px;
+nav a:hover {
+  font-weight: bold;
 }
+
 nav li {
   display: block;
   text-decoration: underline;
@@ -99,25 +101,31 @@ nav a {
   display: block;
 }
 
-nav a:hover {
-  font-weight: bold;
-}
 .current {
   color: var(--color-text);
   font-weight: bold;
-  border-radius: 5px;
 }
 
-nav {
-  background-color: #fff;
-  position: absolute;
-  left: 0px;
-  top: 72px;
-  z-index: 1;
+.main-menu > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main-menu > ul > li {
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.icon-container {
+  display: flex;
+}
+
+.icon {
+  width: 16px;
+  margin-right: 7px;
 }
 
 .hamburger-label {
-  float: left;
   color: var(--color-a-hamburger);
   padding: 10px;
   font-size: 1.5em;
@@ -126,11 +134,6 @@ nav {
 
 #hamburger-menu:checked ~ nav {
   display: block;
-}
-
-body {
-  margin: 0px;
-  padding: 0px;
 }
 
 /*FOOTER*/
