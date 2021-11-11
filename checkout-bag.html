@@ -1,124 +1,176 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bag"
-    content="Checkout">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="bag" content="Checkout" />
     <title>Checkout</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap"
+      rel="stylesheet"
+    />
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/checkout-bag.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/6504b123cc.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header class="main-header">
-        <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-        <input type="checkbox" id="hamburger-menu">
-        <nav>
-          <ul>
-            <li><a href="women.html">women</a></li>
-            <li><a href="women.html">men</a></li>
-            <li><a href="bestsellers.html">bestsellers</a></li>
-            <li><a href="collection.html">collection</a></li>
-            <li><a href="about.html" class="about-link">About</a></li>
-            <li><a href="contact.html" class="contact-link">Contact</a></li>
-            </ul>
-        </nav>
-       <a href="index.html"> <img src="/images/Rainydays-logo.jpg" class="logo" alt="Rainydays logo and link to homepage"></a></div>
-       <div class="search-web">
-        <input type="text" placeholder="Search..">
-      </div>
-        <div class="search">
-          <input type="text" placeholder="Search..">
+    <script
+      src="https://kit.fontawesome.com/6504b123cc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="content-container">
+      <header class="main-header">
+        <div>
+          <label class="hamburger-label" for="hamburger-menu"
+            ><i class="fas fa-bars"></i
+          ></label>
+          <input type="checkbox" id="hamburger-menu" />
         </div>
-       </header>
-    <main class="checkout">
+        <div>
+          <a href="index.html">
+            <img
+              src="/images/Rainydays-logo.jpg"
+              class="logo"
+              alt="Rainydays logo and link to homepage"
+          /></a>
+        </div>
+        <div>
+          <nav class="main-menu">
+            <ul>
+              <li><a href="women.html">women</a></li>
+              <li><a href="women.html">men</a></li>
+              <li><a href="bestsellers.html">bestsellers</a></li>
+              <li><a href="collection.html">collection</a></li>
+              <li><a href="about.html" class="about-link">About</a></li>
+              <li><a href="contact.html" class="contact-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="search-web">
+          <input type="text" placeholder="Search.." />
+        </div>
+        <div class="icon-container">
+          <img src="/icons/icon-person.svg" alt="person-icon" class="icon" />
+          <img src="/icons/icon-heart.svg" alt="heart-icon" class="icon" />
+          <img src="/icons/icon-bag.svg" alt="bag-icon" class="icon" />
+        </div>
+        <div class="search">
+          <input type="text" placeholder="Search.." />
+        </div>
+      </header>
+      <main class="checkout">
         <section class="breadcrumbs-container">
-        <ul class="breadcrumbs">
+          <ul class="breadcrumbs">
             <li class="active"><a href="checkout-bag.html">1.Bag</a></li>
             <li><a href="checkout-delivery.html">2.Delivery</a></li>
             <li><a href="#">3.Payment</a></li>
             <li><a href="#">4.Complete</a></li>
-        </ul>
-    </section>
-    <section class="shopping-bag">
-        <h1>1. Your shopping bag</h1>
-        <img src="images/products/orange-small.jpg" class="checkout-image" alt="Woman in Rainydays orange long coat">
-        <div class="bag-list">
-        <h3 class="bag-info">Rainydays</h3>
-        <h5 class="bag-info">Long coat</h5>
-        <h3 class="bag-info">429,-</h3>
-        <p class="bag-info">Size: Small</p>
-        <p class="bag-info">Color: Orange</p>
-    </div>
-    </section>
-    <section class="summary">
-       <h5>Order summary</h5>
-       <div class="summary-list1">
-       <p class="summary-info1">Price</p>
-       <p class="summary-info1">Delivery</p>
-       <h3 class="summary-info1">Total</h3>
-       </div>
-       <div class="summary-list2">
-       <p class="summary-info2">429,-</p>
-       <p class="summary-info2">49,-</p>
-       <p class="orange-price">478,-</p>
-    </div>
-    </section>
-    <div>
-        <a href="checkout-delivery.html" class="cta-yellow">Checkout</a>
-    </div>
-    <section class="top-picks">
-        <h2>Top picks for you</h2>
-        <div class="top-picks1">
-        <img src="images/products/yellow-small.jpg" class="top-product" alt="Woman in Rainydays yellow long coat">
-        <h3>Long coat: 429,-</h3>
-        <img src="icons/Icon-shopping-bag.svg" class="bag-icon" alt="Add item to shopping bag">
+          </ul>
+        </section>
+        <section class="shopping-bag">
+          <h1>1. Your shopping bag</h1>
+          <img
+            src="images/products/orange-small.jpg"
+            class="checkout-image"
+            alt="Woman in Rainydays orange long coat"
+          />
+          <div class="bag-list">
+            <h3 class="bag-info">Rainydays</h3>
+            <h5 class="bag-info">Long coat</h5>
+            <h3 class="bag-info">429,-</h3>
+            <p class="bag-info">Size: Small</p>
+            <p class="bag-info">Color: Orange</p>
+          </div>
+        </section>
+        <section class="summary">
+          <h5>Order summary</h5>
+          <div class="summary-list1">
+            <p class="summary-info1">Price</p>
+            <p class="summary-info1">Delivery</p>
+            <h3 class="summary-info1">Total</h3>
+          </div>
+          <div class="summary-list2">
+            <p class="summary-info2">429,-</p>
+            <p class="summary-info2">49,-</p>
+            <p class="orange-price">478,-</p>
+          </div>
+        </section>
+        <div>
+          <a href="checkout-delivery.html" class="cta-yellow">Checkout</a>
         </div>
-        <div class="top-picks2">
-            <img src="images/products/yellow-small.jpg" class="top-product" alt="Woman in Rainydays yellow active basic jacket">
+        <section class="top-picks">
+          <h2>Top picks for you</h2>
+          <div class="top-picks1">
+            <img
+              src="images/products/yellow-small.jpg"
+              class="top-product"
+              alt="Woman in Rainydays yellow long coat"
+            />
+            <h3>Long coat: 429,-</h3>
+            <img
+              src="icons/Icon-shopping-bag.svg"
+              class="bag-icon"
+              alt="Add item to shopping bag"
+            />
+          </div>
+          <div class="top-picks2">
+            <img
+              src="images/products/yellow-small.jpg"
+              class="top-product"
+              alt="Woman in Rainydays yellow active basic jacket"
+            />
             <h3>Active basic: 349,-</h3>
-            <img src="icons/Icon-shopping-bag.svg" class="bag-icon" alt="Add item to shopping bag">
-        </div>
-    </section>
-    <section class="review-points">
-        <h2>Reviews from customers</h2>
-        <h3 class="review-points1">4.8</h3>
-        <img src="icons/stars.svg" class="review-points2" alt="Five stars from customers">
-        <p class="review-points3">32 reviews</p>
-    </section>
-
-    <section class="reviews">
-        <div class="review1">
+            <img
+              src="icons/Icon-shopping-bag.svg"
+              class="bag-icon"
+              alt="Add item to shopping bag"
+            />
+          </div>
+        </section>
+        <section class="review-points">
+          <h2>Reviews from customers</h2>
+          <h3 class="review-points1">4.8</h3>
+          <img
+            src="icons/stars.svg"
+            class="review-points2"
+            alt="Five stars from customers"
+          />
+          <p class="review-points3">32 reviews</p>
+        </section>
+        <section class="reviews">
+          <div class="review1">
             <p>Kristine Bache</p>
-            <img src="icons/stars.svg" alt="Five stars from customers">
-        <div>
-            <p>How was the size?: Normal</p>
-        </div>
-        <div>
-            <p>I really love the jacket, I use it for hiking, running and skiing, and it is 
-                    absolutely the best rain jacket I have ever owned. </p>
-        </div>
-    </div>
-        <div class="review2">
-            <p>Kristine Bache</p>
-            <img src="icons/stars.svg" alt="Five stars from customers">
+            <img src="icons/stars.svg" alt="Five stars from customers" />
             <div>
-                <p>How was the size?: Normal</p>
+              <p>How was the size?: Normal</p>
             </div>
             <div>
-                <p>I really love the jacket, I use it for hiking, running and skiing, and it is 
-                    absolutely the best rain jacket I have ever owned. </p>
+              <p>
+                I really love the jacket, I use it for hiking, running and
+                skiing, and it is absolutely the best rain jacket I have ever
+                owned.
+              </p>
             </div>
-        </div>
-    </section>
-    </main>
-    <section class="footer-container">
+          </div>
+          <div class="review2">
+            <p>Kristine Bache</p>
+            <img src="icons/stars.svg" alt="Five stars from customers" />
+            <div>
+              <p>How was the size?: Normal</p>
+            </div>
+            <div>
+              <p>
+                I really love the jacket, I use it for hiking, running and
+                skiing, and it is absolutely the best rain jacket I have ever
+                owned.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <section class="footer-container">
         <div class="footer">
           <div class="footer-heading">
             <h2>Products</h2>
@@ -136,12 +188,12 @@
             <a href="about.html">About Us</a>
           </div>
           <div class="footer-icons">
-            <img src="/icons/Icon-instagram.svg" alt="Instagram icon">
-            <img src="/icons/Icon-facebook.svg" alt="Facebook icon">
-            <img src="/icons/Icon-twitter.svg" alt="Twitter icon">
+            <img src="/icons/Icon-instagram.svg" alt="Instagram icon" />
+            <img src="/icons/Icon-facebook.svg" alt="Facebook icon" />
+            <img src="/icons/Icon-twitter.svg" alt="Twitter icon" />
           </div>
         </div>
       </section>
-    
-</body>
+    </div>
+  </body>
 </html>
