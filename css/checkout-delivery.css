@@ -30,7 +30,9 @@ main {
 .delivery-info {
   margin: 0px 10px;
 }
-
+.delivery-info h1 {
+  text-align: left;
+}
 select {
   width: 65vw;
   margin-bottom: 20px;

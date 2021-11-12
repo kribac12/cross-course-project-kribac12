@@ -1,8 +1,5 @@
 /*481*/
 @media only screen and (min-width: 481px) {
-  .hamburger-label {
-    display: none;
-  }
   .main-header {
     display: flex;
     justify-content: space-between;
@@ -12,7 +9,7 @@
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .main-running {
@@ -46,6 +43,16 @@
     display: flex;
   }
 
+  ul.breadcrumbs {
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  ul.breadcrumbs li a {
+    font-size: 0.7em;
+  }
+
+  /*search*/
   .search {
     display: none;
   }
@@ -68,24 +75,32 @@
     display: none;
   }
 
-  .about-main h2,
-  p {
-    margin-left: 35px;
-    margin-right: 35px;
-  }
-
   .top-picks {
     display: flex;
     justify-content: space-evenly;
   }
 
-  .reviews {
-    display: flex;
-  }
-
   /*jacket*/
   .jacket-info {
     display: flex;
+  }
+
+  /*payment pages*/
+  .order-summary {
+    border-radius: 15px;
+  }
+
+  .reviews-section {
+    display: flex;
+    margin: 30px 0px;
+  }
+
+  .reviews img {
+    margin: 0;
+  }
+  .review-points {
+    flex-direction: column;
+    margin-right: 60px;
   }
 
   .footer {
@@ -132,8 +147,12 @@
 /*769*/
 
 @media only screen and (min-width: 769px) {
+  .hamburger-label {
+    display: none;
+  }
+
   h1 {
-    font-size: 2em;
+    font-size: 1.4em;
   }
 
   .main-menu > ul > li {
@@ -151,14 +170,12 @@
 
   /*Nav*/
 
-  .search-web input[type="text"] {
-    width: 90px;
+  ul.breadcrumbs li a {
+    font-size: 0.8em;
   }
 
-  .about-main h2,
-  p {
-    margin-left: 50px;
-    margin-right: 50px;
+  .search-web input[type="text"] {
+    width: 90px;
   }
 }
 
@@ -179,7 +196,7 @@
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 1.7em;
   }
 
   .main-running {
@@ -217,13 +234,11 @@
     display: flex;
   }
 
-  .search {
-    display: none;
+  ul.breadcrumbs li a {
+    font-size: 0.9em;
   }
 
-  .about-main h2,
-  p {
-    margin-left: 70px;
-    margin-right: 70px;
+  .search {
+    display: none;
   }
 }

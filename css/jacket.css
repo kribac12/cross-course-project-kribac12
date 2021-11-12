@@ -1,7 +1,7 @@
 .jacket-specific {
   width: 100%;
   height: auto;
-  margin: 2px 0px;
+  margin: 0.5rem 0rem;
   grid-column: -1/1;
 }
 
@@ -37,4 +37,22 @@ ul.a {
 
 .information {
   padding: 40px 0px;
+}
+
+#add-item,
+.cart-1 {
+  display: none;
+}
+
+.cart-1 {
+  border: 2px solid #ffa800;
+  right: 0.5rem;
+  padding: 0.5rem;
+  margin: 1rem 0rem;
+}
+
+#add-item:checked ~ .cart-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }

@@ -1,0 +1,35 @@
+section .radio-buttons {
+  display: grid;
+  grid-template-columns: 1fr fr 8fr;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+  margin: 20px 0px;
+}
+
+.card-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-information input {
+  border: 2px solid orange;
+  border-radius: 5px;
+  margin: 5px 0px 10px 0px;
+  height: 5vh;
+  width: 60vw;
+}
+
+.card-information :last-child {
+  width: 40vw;
+}
+
+.payment-info {
+  margin: 10px;
+}
+
+.payment-info h1 {
+  text-align: left;
+}

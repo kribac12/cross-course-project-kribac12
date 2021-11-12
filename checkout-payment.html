@@ -75,13 +75,44 @@
           <h1>3.Payment</h1>
           <form method="POST">
             <section class="radio-buttons">
-              <input type="radio" class="item-1" name="card" id="card" />
-              <label for="card" class="item-1">Pay by card</label>
-              <input type="radio" class="item-2" name="klarna" id="klarna" />
-              <label for="klarna" class="item-2">Use Klarna</label>
-              <input type="radio" class="item-3" name="paypal" id="paypal" />
-              <label for="paypal" class="item-3">Use Paypal</label>
+              <div>
+                <input
+                  type="radio"
+                  class="item-1"
+                  name="payment-option"
+                  id="card"
+                />
+                <label for="card" class="item-1">Pay by card</label>
+                <div class="card-information">
+                  <label for="card-number">Card number</label>
+                  <input type="text" id="card" name="card" />
+                  <label for="expiration">Expiration date</label>
+                  <input type="text" id="expiration" name="expiration" />
+                  <label for="ccv">CCV</label>
+                  <input type="text" id="ccv" name="ccv" />
+                </div>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  class="item-2"
+                  name="payment-option"
+                  id="klarna"
+                />
+                <label for="klarna" class="item-2">Use Klarna</label>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  class="item-3"
+                  name="payment-option"
+                  id="paypal"
+                />
+                <label for="paypal" class="item-3">Use Paypal</label>
+              </div>
             </section>
+            <a href="success.html" class="cta-yellow">Complete order</a>
+            </a>
           </form>
         </section>
       </main>

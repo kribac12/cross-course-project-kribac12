@@ -9,7 +9,7 @@ main {
   grid-template-columns: 3fr 1fr;
   margin-bottom: 15px;
   border: 1px solid #ffa827;
-  border-radius: 5%;
+  border-radius: 5px;
   padding: 0px 10px 0px 10px;
 }
 .order-summary h5 {

@@ -21,12 +21,12 @@ h2 {
 
 h1 {
   text-align: center;
-  padding-top: 10px;
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 h2 {
-  font-size: 1.1em;
+  font-size: 1.1rem;
+  margin-top: 3rem;
 }
 
 h5 {
@@ -35,7 +35,7 @@ h5 {
 .orange-price {
   color: #ff4417;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 /*Main header*/
@@ -63,7 +63,7 @@ h5 {
 
 .search input[type="text"] {
   width: 90vw;
-  margin: 0px 10px 0px 13px;
+  margin: 0rem 0.625rem 0rem 0.813rem;
   background-color: #f2f0f0;
   border-radius: 5px;
   border: 1px solid darkgray;
@@ -75,7 +75,7 @@ h5 {
 
 .search-web {
   display: none;
-  max-width: 90px;
+  max-width: 5.625rem;
 }
 
 /*NAV*/
@@ -97,7 +97,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--color-a-hamburger);
-  padding: 10px;
+  padding: 0.625rem;
   display: block;
 }
 
@@ -121,14 +121,14 @@ nav a {
 }
 
 .icon {
-  width: 14px;
-  margin-right: 7px;
+  width: 0.875rem;
+  margin-right: 0.438rem;
 }
 
 .hamburger-label {
   color: var(--color-a-hamburger);
-  padding: 10px;
-  font-size: 1.5em;
+  padding: 0.875rem;
+  font-size: 1.5rem;
   display: block;
 }
 
@@ -145,7 +145,7 @@ nav a {
 }
 
 .review-points1 {
-  font-size: 2em;
+  font-size: 2rem;
   color: #ff4417;
 }
 
@@ -156,10 +156,15 @@ nav a {
 }
 
 .reviews img {
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 /*TOP PICKS*/
+
+.top-picks-section,
+.reviews {
+  margin: 0px 10px;
+}
 
 .top-picks1 {
   display: flex;
@@ -178,21 +183,15 @@ nav a {
 }
 
 .top-picks h2 {
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
-.top-picks-section {
-  margin: 10px;
-}
-
-.reviews {
-  margin: 10px;
-}
+/*PAYMENT*/
 
 /*FOOTER*/
 
 .footer-container {
-  margin: 10px 0px 0px 0px;
+  margin: 0.625rem 0rem 0rem 0rem;
   background-color: #f2f0f0;
 }
 
@@ -201,13 +200,13 @@ nav a {
   color: #000000;
   display: grid;
   justify-content: center;
-  margin: 20px 15px 0px 0px;
+  margin: 1.25rem 0.938rem 0rem 0rem;
 }
 
 .footer-heading {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 1.25rem;
 }
 
 .footer-heading h2 {
@@ -225,10 +224,10 @@ nav a {
 }
 .footer-icons {
   display: flex;
-  max-width: 25px;
+  max-width: 1.563rem;
   width: 100%;
 }
 
 .footer-icons img {
-  padding: 20px;
+  padding: 1.25rem;
 }
