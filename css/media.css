@@ -1,3 +1,14 @@
+@media only screen and (max-width: 769px) {
+  .main-running {
+    background: rgba(0, 0, 0, 0.3)
+      url("/images/Homepage/header-image-small.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 10px;
+  }
+}
+
 /*481*/
 @media only screen and (min-width: 481px) {
   .main-header {
@@ -10,14 +21,6 @@
 
   h1 {
     font-size: 1.2em;
-  }
-
-  .main-running {
-    background: rgba(0, 0, 0, 0.3) url("/images/Homepage/header-image.jpg");
-    background-blend-mode: darken;
-    background-size: cover;
-    min-height: 400px;
-    margin-top: 10px;
   }
 
   .welcome-text {
@@ -39,6 +42,10 @@
     font-size: 0.75rem;
   }
 
+  .hamburger-label {
+    display: none;
+  }
+
   nav {
     display: flex;
   }
@@ -49,7 +56,7 @@
   }
 
   ul.breadcrumbs li a {
-    font-size: 0.7em;
+    font-size: 0.6em;
   }
 
   /*search*/
@@ -147,17 +154,8 @@
 /*769*/
 
 @media only screen and (min-width: 769px) {
-  .hamburger-label {
-    display: none;
-  }
-
   h1 {
     font-size: 1.4em;
-  }
-
-  .main-menu > ul > li {
-    display: inline-block;
-    font-size: 0.9rem;
   }
 
   .main-header {
@@ -168,10 +166,24 @@
     border-bottom: 1px solid #707070;
   }
 
+  .main-running {
+    background: rgba(0, 0, 0, 0.3) url(/images/Homepage/header-image.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 10px;
+  }
+
   /*Nav*/
 
   ul.breadcrumbs li a {
-    font-size: 0.8em;
+    font-size: 0.7em;
+  }
+
+  .about-link,
+  .contact-link {
+    display: inline-block;
+    text-decoration: underline;
   }
 
   .search-web input[type="text"] {
@@ -186,7 +198,7 @@
 
   .main-menu > ul > li {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -195,16 +207,8 @@
     display: none;
   }
 
-  h1 {
-    font-size: 1.7em;
-  }
-
-  .main-running {
-    background: rgba(0, 0, 0, 0.3) url("/images/Homepage/header-image.jpg");
-  }
-
   .welcome-text {
-    font-size: 1.2em;
+    font-size: 0.8rem;
     padding-left: 10px;
     padding-top: 10px;
     max-width: 400px;

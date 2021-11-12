@@ -8,25 +8,17 @@ img {
   margin: 0px;
 }
 
-.main-running {
-  background: rgba(0, 0, 0, 0.3) url("/images/Homepage/header-image-small.jpg");
-  background-blend-mode: darken;
-  background-size: cover;
-  min-height: 400px;
-  margin-top: 10px;
-}
-
 .welcome-text {
   text-align: left;
   color: var(--color-header-nav);
   text-shadow: #0000;
-  padding-left: 10px;
-  padding-top: 200px;
+  padding: 12.5rem 0rem 0.6rem 0.6rem;
   max-width: 320px;
 }
 
 .welcome-text h2 {
   color: var(--color-header-nav);
+  font-size: 1.6rem;
 }
 
 .main-exclusive {
