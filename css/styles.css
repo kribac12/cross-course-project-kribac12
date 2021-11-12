@@ -133,7 +133,10 @@ nav a {
 }
 
 #hamburger-menu:checked ~ nav {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: space-between;
 }
 
 /*REVIEWS*/
@@ -154,9 +157,6 @@ nav a {
 
 .reviews img {
   margin-left: 10px;
-}
-.reviews-text {
-  font-size: 0.8rem;
 }
 
 /*TOP PICKS*/
