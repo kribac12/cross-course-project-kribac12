@@ -28,7 +28,7 @@ p {
 }
 
 .cta-yellow {
-  margin: 22%;
+  margin: 0.625rem;
 }
 
 ul.a {
@@ -46,9 +46,8 @@ ul.a {
 
 .cart-1 {
   border: 2px solid #ffa800;
-  right: 0.5rem;
   padding: 0.5rem;
-  margin: 1rem 0rem;
+  margin: 1.5rem 1rem;
 }
 
 #add-item:checked ~ .cart-1 {
