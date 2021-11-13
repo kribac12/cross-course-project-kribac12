@@ -1,20 +1,20 @@
 main {
   color: var(--color-text);
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
 }
 
 .order-summary {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  margin-bottom: 15px;
-  border: 1px solid #ffa827;
-  border-radius: 5px;
-  padding: 0px 10px 0px 10px;
+  margin-bottom: 0.94;
+  border: 1px solid var(--cta-yellow);
+  border-radius: ;
+  padding: 0rem 0.625rem;
 }
 .order-summary h5 {
   grid-column: -1/1;
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 
 .order-summary h3 {
@@ -41,5 +41,5 @@ main {
 
 .hand-icon {
   width: 80%;
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }

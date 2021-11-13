@@ -118,10 +118,6 @@
     flex-direction: column;
     margin-right: 60px;
   }
-
-  .footer {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
 }
 
 /*544*/

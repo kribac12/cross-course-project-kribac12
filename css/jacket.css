@@ -12,7 +12,7 @@
 
 h5,
 p {
-  margin: 0px 10px 10px 10px;
+  margin: 0rem 0.625rem 0.625rem 0.625rem;
 }
 
 p {
@@ -20,7 +20,7 @@ p {
 }
 
 .choose-size {
-  margin: 0px 0px 30px 10px;
+  margin: 0rem 0rem 0rem 0.625rem;
 }
 
 .sizes {
@@ -36,7 +36,7 @@ ul.a {
 }
 
 .information {
-  padding: 40px 0px;
+  padding: 40px 0rem;
 }
 
 #add-item,

@@ -2,19 +2,17 @@
 @import "imports/variables.css";
 @import "imports/ui.css";
 
-/*GLOBAL STYLES*/
-
 body {
   margin: 0;
   font-family: Verdana, helvetica, Tahoma, sans-serif;
 }
 
-/*Text*/
+/*FONTS AND COPY*/
 
 h1,
 h2 {
   font-family: "Zen Antique", Tahoma, Verdana, sans-serif;
-  color: #003438;
+  color: var(--color-text);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -38,7 +36,7 @@ h5 {
   font-size: 1rem;
 }
 
-/*Main header*/
+/*MAIN HEADER*/
 
 .main-header {
   display: flex;
@@ -59,7 +57,7 @@ h5 {
   margin: 0;
 }
 
-/*Search*/
+/*SEARCH*/
 
 .search input[type="text"] {
   width: 90vw;
@@ -96,7 +94,7 @@ nav li {
 nav a {
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--color-a-hamburger);
+  color: var(--color-header-footer);
   padding: 0.625rem;
   display: block;
 }
@@ -126,7 +124,7 @@ nav a {
 }
 
 .hamburger-label {
-  color: var(--color-a-hamburger);
+  color: var(--color-header-footer);
   padding: 0.875rem;
   font-size: 1.5rem;
   display: block;
@@ -185,11 +183,8 @@ nav a {
 .footer-container {
   margin: 0.625rem 0rem 0rem 0rem;
   background-color: #f2f0f0;
-}
-
-.footer {
   width: 100%;
-  color: #000000;
+  color: var(--color-header-footer);
   display: grid;
   justify-content: center;
   margin: 1.25rem 0.938rem 0rem 0rem;
@@ -198,7 +193,6 @@ nav a {
 .footer-heading {
   display: flex;
   flex-direction: column;
-  margin: 1.25rem;
 }
 
 .footer-heading h2 {
@@ -206,7 +200,7 @@ nav a {
 }
 
 .footer-heading a {
-  color: #000000;
+  color: var(--color-header-footer);
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
@@ -216,10 +210,10 @@ nav a {
 }
 .footer-icons {
   display: flex;
+  justify-content: space-between;
   max-width: 1.563rem;
-  width: 100%;
 }
 
 .footer-icons img {
-  padding: 1.25rem;
+  padding: 1.25rem 1.25rem 1.25rem 0rem;
 }
