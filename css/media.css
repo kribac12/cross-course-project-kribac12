@@ -7,6 +7,14 @@
     min-height: 400px;
     margin-top: 10px;
   }
+
+  .main-exclusive {
+    background: rgba(0, 0, 0, 0.3) url("/images/Homepage/exclusive-small.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 10px;
+  }
 }
 
 /*481*/
@@ -19,15 +27,21 @@
     border-bottom: 1px solid #707070;
   }
 
+  .welcome-text,
+  .exclusive-text {
+    font-size: 1.1rem;
+    width: 30rem;
+  }
+  .welcome-text h2 {
+    font-size: 1.5rem;
+  }
   h1 {
     font-size: 1.2em;
   }
 
-  .welcome-text {
-    font-size: 1.2em;
-    padding-left: 10px;
-    padding-top: 10px;
-    max-width: 400px;
+  /*home*/
+  .featured {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   /*Nav*/
@@ -80,11 +94,6 @@
   .about-link,
   .contact-link {
     display: none;
-  }
-
-  .top-picks {
-    display: flex;
-    justify-content: space-evenly;
   }
 
   /*jacket*/
@@ -149,11 +158,17 @@
     margin: 0px;
     padding: 0px;
   }
+
+  .top-picks {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 /*769*/
 
 @media only screen and (min-width: 769px) {
+  /*global*/
   h1 {
     font-size: 1.4em;
   }
@@ -166,12 +181,32 @@
     border-bottom: 1px solid #707070;
   }
 
+  /*homepage*/
+
   .main-running {
     background: rgba(0, 0, 0, 0.3) url(/images/Homepage/header-image.jpg);
     background-blend-mode: darken;
     background-size: cover;
     min-height: 400px;
     margin-top: 10px;
+  }
+
+  .main-exclusive {
+    background: rgba(0, 0, 0, 0.3) url("/images/Homepage/exclusive.jpg");
+    background-blend-mode: darken;
+    background-size: cover;
+    min-height: 400px;
+    margin-top: 10px;
+  }
+
+  .welcome-text,
+  .exclusive-text {
+    font-size: 1.6rem;
+  }
+
+  .welcome-text h2 {
+    font-size: 2rem;
+    width: 37.5rem;
   }
 
   /*Nav*/
@@ -205,13 +240,6 @@
 @media only screen and (min-width: 1020px) {
   .hamburger-label {
     display: none;
-  }
-
-  .welcome-text {
-    font-size: 0.8rem;
-    padding-left: 10px;
-    padding-top: 10px;
-    max-width: 400px;
   }
 
   .main-header {

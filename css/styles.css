@@ -166,22 +166,14 @@ nav a {
   margin: 0px 10px;
 }
 
-.top-picks1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .top-picks2 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-
 .top-product {
-  width: 100%;
+  width: 97%;
 }
-
 .top-picks h2 {
   margin-top: 2.5rem;
 }

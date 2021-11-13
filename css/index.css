@@ -4,30 +4,31 @@ img {
   margin: 20px 0px;
 }
 
+h1 {
+  margin: 2.5rem 0rem 0rem 0rem;
+}
 .main-photo {
   margin: 0px;
 }
 
-.welcome-text {
-  text-align: left;
-  color: var(--color-header-nav);
-  text-shadow: #0000;
-  padding: 12.5rem 0rem 0.6rem 0.6rem;
-  max-width: 320px;
-}
-
 .welcome-text h2 {
   color: var(--color-header-nav);
-  font-size: 1.6rem;
+}
+
+.welcome-text,
+.exclusive-text {
+  text-align: left;
+  color: var(--color-header-nav);
+  padding: 12.5rem 0rem 0.6rem 0.6rem;
 }
 
 .main-exclusive {
-  position: relative;
+  margin: 1.25rem 0rem;
 }
 
 .featured {
   display: grid;
-  margin: 50px 5px 30px 5px;
+  margin: 0px 5px 30px 5px;
   grid-gap: 5px;
 }
 
@@ -47,6 +48,7 @@ img {
 .products {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
 }
 
 .featured .cta {
