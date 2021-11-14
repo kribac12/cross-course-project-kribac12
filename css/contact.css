@@ -7,6 +7,14 @@ textarea {
   height: 80%;
 }
 
+main {
+  margin-left: 0.6rem;
+}
+
+h4 {
+  margin-top: 3rem;
+}
+
 textarea {
   height: 150px;
 }
@@ -35,6 +43,7 @@ textarea {
 .social-media > * {
   display: flex;
   flex: 1;
+  margin-bottom: 1rem;
 }
 .orange-icon {
   margin-right: 0.625rem;

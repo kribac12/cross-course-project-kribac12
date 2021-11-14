@@ -14,6 +14,9 @@
   margin-top: 0.938rem;
 }
 
+.size-filter {
+  border-radius: 0.3rem;
+}
 .item {
   display: grid;
 }

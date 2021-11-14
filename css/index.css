@@ -28,8 +28,8 @@ h1 {
 
 .featured {
   display: grid;
-  margin: 0rem 0.31rem 1.88rem 0.31rem;
   grid-gap: 0.31rem;
+  margin: 0px 5px 30px 5px;
 }
 
 .featured h1 {
@@ -39,7 +39,7 @@ h1 {
 
 .featured img {
   width: 100%;
-  margin: 1.25rem 0rem 0rem 0rem;
+  margin: 1.25rem 0rem 0.5rem 0rem;
 }
 
 .products img {

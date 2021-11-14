@@ -17,7 +17,7 @@ section .radio-buttons {
 .card-information input {
   border: 2px solid orange;
   border-radius: 0.31rem;
-  margin: 0.31rem0rem 0.625rem 0rem;
+  margin: 0.31rem 0rem 0.625rem 0rem;
   height: 5vh;
   width: 60vw;
 }

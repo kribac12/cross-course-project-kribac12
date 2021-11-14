@@ -18,6 +18,10 @@ main {
   width: 100%;
 }
 
+.cta-checkout2 {
+  display: none;
+}
+
 .jacket-checkout,
 .bag-list {
   display: flex;
@@ -31,6 +35,7 @@ main {
 }
 .summary-lists {
   display: flex;
+  justify-content: space-between;
 }
 
 .summary h3 {

@@ -19,13 +19,6 @@
 
 /*481*/
 @media only screen and (min-width: 481px) {
-  .main-header {
-    display: flex;
-    justify-content: space-between;
-    background: var(--color-header-nav);
-    align-items: center;
-  }
-
   .welcome-text,
   .exclusive-text {
     font-size: 1.1rem;
@@ -34,13 +27,11 @@
   .welcome-text h2 {
     font-size: 1.5rem;
   }
-  h1 {
-    font-size: 1.2em;
-  }
 
   /*home*/
-  .featured {
-    grid-template-columns: 1fr 1fr 1fr;
+
+  .cta {
+    font-size: 1rem;
   }
 
   /*Nav*/
@@ -107,9 +98,9 @@
 
 @media only screen and (min-width: 544px) {
   .main-header {
+    display: flex;
     justify-content: space-between;
     background: var(--color-header-nav);
-    align-items: center;
     border-bottom: 1px solid #707070;
   }
 
@@ -131,6 +122,9 @@
   .logo {
     max-width: 20vw;
   }
+  .featured {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 /*769*/
@@ -139,13 +133,6 @@
   /*global*/
   h1 {
     font-size: 1.4em;
-  }
-
-  .main-header {
-    display: flex;
-    justify-content: space-between;
-    background: var(--color-header-nav);
-    align-items: center;
   }
 
   /*homepage*/
@@ -205,17 +192,8 @@
     margin: 0rem 5rem 0rem 0.6rem;
   }
 
-  .jacket h5,
-  p {
-    margin: 0;
-  }
   .stars-icon {
     width: 25%;
-  }
-
-  .cta-yellow {
-    margin: 0;
-    width: 40vw;
   }
 
   /*Payment*/
@@ -256,38 +234,15 @@
 
 @media only screen and (min-width: 900px) {
   .main-menu > ul > li {
-    display: inline-block;
     font-size: 0.8rem;
   }
 }
 
 @media only screen and (min-width: 1020px) {
-  .hamburger-label {
-    display: none;
-  }
-
-  .main-header {
-    display: flex;
-    justify-content: space-between;
-    background: var(--color-header-nav);
-    align-items: center;
-    border-bottom: 1px solid #707070;
-  }
-
   /*Nav*/
 
-  .main-menu > ul {
-    list-style: none;
-    padding: 0;
-  }
-
   .main-menu > ul > li {
-    display: inline-block;
-    font-size: 1.2rem;
-  }
-
-  nav {
-    display: flex;
+    font-size: 1rem;
   }
 
   ul.breadcrumbs li a {

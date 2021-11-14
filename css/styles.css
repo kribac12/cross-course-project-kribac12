@@ -161,8 +161,7 @@ nav a {
 
 .top-picks2 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 .top-product {
   width: 97%;
@@ -174,6 +173,22 @@ nav a {
 /*PAYMENT*/
 
 /*FOOTER*/
+
+.pre-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  justify-content: space-around;
+}
+
+.delivery-icon,
+.sustainable-icon,
+.return-icon {
+  width: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 
 .footer-container {
   margin: 0.625rem 0rem 0rem 0rem;
