@@ -10,7 +10,7 @@ p {
 }
 
 .team img {
-  margin: 1.5rem 0rem;
+  margin: 1.5rem 0rem 1rem 0rem;
 }
 .italics {
   font-style: italic;
@@ -18,7 +18,7 @@ p {
 }
 
 p {
-  margin-left: 0.6rem;
+  margin-left: 0.3rem;
 }
 h2 {
   padding-top: 0.94rem;
