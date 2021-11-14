@@ -18,25 +18,25 @@ main {
 
 .delivery-info input {
   border: 2px solid orange;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  border-radius: 0.31rem;
+  margin-bottom: 0.625rem;
   height: 5vh;
 }
 
 .delivery-info label {
-  margin-bottom: 5px;
+  margin-bottom: 0.31rem;
 }
 
 .delivery-info {
-  margin: 0px 10px;
+  margin: 0rem 0.625rem;
 }
 .delivery-info h1 {
   text-align: left;
 }
 select {
   width: 65vw;
-  margin-bottom: 20px;
-  padding: 10px 0px;
+  margin-bottom: 1.25rem;
+  padding: 0.625rem 0rem;
   font-size: 1em;
 }
 
@@ -49,7 +49,13 @@ select {
 .checkboxes {
   display: grid;
   grid-template-columns: 1fr 8fr;
-  margin: 10px 0px;
+  margin: 0.625rem 0rem;
+}
+
+.item-5,
+.item-6 {
+  width: 1.6rem;
+  height: 1.6rem;
 }
 
 @media only screen and (min-width: 1021px) {

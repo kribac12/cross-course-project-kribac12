@@ -5,8 +5,8 @@ img {
 
 main h2,
 p {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
 }
 
 .italics {
@@ -15,5 +15,5 @@ p {
 }
 
 h2 {
-  padding-top: 15px;
+  padding-top: 0.94rem;
 }

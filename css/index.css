@@ -1,14 +1,14 @@
 img {
   width: 100%;
   height: auto;
-  margin: 20px 0px;
+  margin: 1.25rem 0rem;
 }
 
 h1 {
   margin: 2.5rem 0rem 0rem 0rem;
 }
 .main-photo {
-  margin: 0px;
+  margin: 0rem;
 }
 
 .welcome-text h2 {
@@ -28,8 +28,8 @@ h1 {
 
 .featured {
   display: grid;
-  margin: 0px 5px 30px 5px;
-  grid-gap: 5px;
+  margin: 0rem 0.31rem 1.88rem 0.31rem;
+  grid-gap: 0.31rem;
 }
 
 .featured h1 {

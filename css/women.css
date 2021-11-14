@@ -5,8 +5,8 @@
 .women-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 10px;
-  gap: 5px;
+  margin: 0.625rem;
+  gap: 0.31rem;
 }
 
 .product {
@@ -19,10 +19,10 @@
 }
 
 h5 {
-  margin: 5px 0px;
+  margin: 0.31rem 0rem;
 }
 p {
-  margin: 8px 0px 0px 0px;
+  margin: 0.5rem 0rem 0rem 0rem;
 }
 
 .shopping-bag {
