@@ -127,6 +127,10 @@
     display: flex;
     justify-content: space-evenly;
   }
+
+  .logo {
+    max-width: 20vw;
+  }
 }
 
 /*769*/
@@ -246,7 +250,7 @@
 
   /*search*/
   .search input[type="text"] {
-    width: 90vw;
+    width: 60vw;
   }
 }
 

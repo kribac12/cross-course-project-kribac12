@@ -22,7 +22,6 @@ ul.breadcrumbs li a:hover {
 
 .active {
   font-weight: bold;
-  color: var(--color-text);
 }
 
 .breadcrumbs-container {
