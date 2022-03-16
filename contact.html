@@ -64,26 +64,42 @@
         <h1>Contact rainydays</h1>
         <p>We'd love to hear from you</p>
       </header>
+      <section class="formContainer">
         <h4>Contact form</h4>
-        <form method="POST">
-            <div class="form-wrapper">
-                <section>
-                    <label for="name">Full name</label>
-                    <input type="text" class=form-input id="name" name="name">
-                    <label for="email">E-mail</label>
-                    <input type="email" class=form-input id="email" name="email"> 
-                </section>
-                <section>
-                    <label for="subject">Subject</label>
-                    <input type="subject" class=form-input id="subject" name="subject">
-                </section> 
-                <section>
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message"></textarea> 
-                </section>
-            </div>
-        </form>
-            <input type="submit" value="Send" class="cta cta-yellow"> </input>
+        <form method="POST" id="contactForm">
+          <div>
+                    <label>
+                       <p>Full name (minimum 3 characters)</p>
+                    <input name="name" class=form-input id="fullName" placeholder="Full name">
+                   
+                  </label>
+                  <div class="contactFormError" id="fullNameError">Please enter a name longer than 3 characters</div>
+                  </div>
+                  <div>
+                    <label>
+                      <p>E-mail (required)</p>
+                    <input name="email" class=form-input id="email" placeholder="E-mail"> 
+                  
+                  </label>
+                  <div class="contactFormError" id="emailError">Please enter a valid email address</div>
+                  </div>
+                  <div>
+                    <label>
+                      <p>Subject (minimum 8 characters)</p>
+                    <input name="subject" class=form-input id="subject" placeholder="Subject">
+                    </label>
+                    <div class="contactFormError" id="subjectError">Please include a minimum of 10 characters in your message.</div>
+                  </div>
+                  <div>
+                    <label>
+                      <p>Message (minimum 30 characters)</p>
+                    <textarea name="message" id="message" placeholder="Your message"></textarea> 
+                  </label> 
+                  <div class="contactFormError" id="messageError">Please include a minimum of 30 characters in your message.</div>
+                  </div>
+            <input type="submit" id="contactButton" value="Send" class="cta cta-yellow"> </input>
+          </form>
+          </section>
             <section>
                 <h4>Send us an e-mail</h4>
                 <p>rainydays@shop.com</p>
@@ -149,5 +165,6 @@
       </div>
     </section>
       </div>
+      <script src="js/contact.js"></script>
 </body>
 </html>
