@@ -26,6 +26,11 @@ h2 {
   margin: 1.25rem 0rem;
 }
 
+.main-categories {
+  display: flex;
+  flex-direction: column;
+}
+
 .featured {
   display: grid;
   grid-gap: 0.31rem;

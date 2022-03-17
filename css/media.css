@@ -124,6 +124,10 @@
   .featured {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .main-categories {
+    flex-direction: row;
+  }
 }
 
 /*769*/
