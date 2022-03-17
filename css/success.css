@@ -8,7 +8,7 @@ main {
   display: grid;
   grid-template-columns: 3fr 1fr;
   margin-bottom: 0.94;
-  border: 1px solid var(--cta-yellow);
+  border: 1px solid var(--cta-green);
   border-radius: 0.3rem;
   padding: 0rem 0.625rem;
 }

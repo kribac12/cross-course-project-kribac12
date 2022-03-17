@@ -50,6 +50,17 @@ textarea {
   margin: 3px 0px;
 }
 
+.successMessage {
+  display: none;
+  color: #0e6f4d;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+button:disabled {
+  background: rgba(4, 57, 62, 0.2);
+}
+
 .social-media {
   display: flex;
   flex-direction: column;

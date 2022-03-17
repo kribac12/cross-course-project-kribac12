@@ -14,12 +14,12 @@
   font-weight: bold;
 }
 
-.cta-yellow {
-  background-color: #ffa800;
+.cta-green {
+  background-color: #003438;
   color: #fff;
   border-style: none;
   text-decoration: none;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1rem;
   padding: 1rem 1.5rem;
   margin-bottom: 2.5rem;
@@ -29,7 +29,7 @@
   grid-column: 2;
 }
 
-.cta-yellow-small {
+.cta-green-small {
   text-align: center;
   border-style: none;
   display: block;

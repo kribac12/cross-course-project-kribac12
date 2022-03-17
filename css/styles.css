@@ -18,13 +18,19 @@ h2 {
 }
 
 h1 {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+}
+
+.women-header h1,
+.about-header h1,
+.contact-header h1 {
   text-align: center;
-  font-size: 1.3rem;
 }
 
 h2 {
-  font-size: 1.1rem;
-  margin-top: 3rem;
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 h5 {
@@ -34,6 +40,10 @@ h5 {
   color: #ff4417;
   font-weight: bold;
   font-size: 1rem;
+}
+
+.centered-para {
+  text-align: center;
 }
 
 /*MAIN HEADER*/
