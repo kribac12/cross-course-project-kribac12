@@ -126,7 +126,7 @@
   }
 
   .main-categories {
-    flex-direction: row;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
