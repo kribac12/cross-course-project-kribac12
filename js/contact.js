@@ -47,7 +47,6 @@ function validateForm(event) {
   //Success message for message sent, disabling the button
   if (checkLength(fullName.value, 3) && checkLength(subject.value, 8) && checkLength(message.value, 30) && validateEmail(email.value)) {
     successMessage.style.display = "block";
-    button.disabled = true;
     form.reset();
   }
 }

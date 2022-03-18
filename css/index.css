@@ -30,7 +30,7 @@ h2 {
 .main-categories {
   display: grid;
   grid-gap: 0.31rem;
-  margin: 0px 5px 30px 5px;
+  margin: 0px 5px 10px 5px;
 }
 
 .featured h2,
