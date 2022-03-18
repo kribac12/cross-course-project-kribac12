@@ -1,16 +1,23 @@
 const form = document.querySelector(".contactForm");
 
-const fullName = document.querySelector("#fullName");
-const fullNameError = document.querySelector("#fullNameError");
-const email = document.querySelector("#email");
-const emailError = document.querySelector("#emailError");
-const subject = document.querySelector("#subject");
-const subjectError = document.querySelector("#subjectError");
-const message = document.querySelector("#message");
-const messageError = document.querySelector("#messageError");
+const successMessage = document.querySelector(".successMessage");
+
 const button = document.querySelector("button");
 
-const successMessage = document.querySelector(".successMessage");
+//form input and error variables
+const fullName = document.querySelector("#fullName");
+const fullNameError = document.querySelector("#fullNameError");
+
+const email = document.querySelector("#email");
+const emailError = document.querySelector("#emailError");
+
+const subject = document.querySelector("#subject");
+const subjectError = document.querySelector("#subjectError");
+
+const message = document.querySelector("#message");
+const messageError = document.querySelector("#messageError");
+
+//function for validation
 function validateForm(event) {
   event.preventDefault();
 
@@ -41,9 +48,8 @@ function validateForm(event) {
   if (checkLength(fullName.value, 3) && checkLength(subject.value, 8) && checkLength(message.value, 30) && validateEmail(email.value)) {
     successMessage.style.display = "block";
     button.disabled = true;
+    form.reset();
   }
-
-  form.reset();
 }
 
 form.addEventListener("submit", validateForm);
