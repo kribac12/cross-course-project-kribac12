@@ -51,14 +51,14 @@
 /*HOVER STATES*/
 
 .cta-green:hover,
-.cta-green:focus {
+.cta-green:active {
   background: rgb(0, 52, 56, 0.2);
   transition: background-color 0.3s ease-in;
   color: #003438;
 }
 
 .cta-white:hover,
-.cta-white:focus {
+.cta-white:active {
   font-weight: bold;
   border: 4px solid rgb(0, 52, 56, 0.2);
   transition: 0.3s ease-in;
