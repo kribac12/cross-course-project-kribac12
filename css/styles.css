@@ -46,32 +46,12 @@ h5 {
   text-align: center;
 }
 
-/*MAIN HEADER*/
-
-.main-header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  background: var(--color-header-nav);
-  align-items: center;
-}
-
-.content-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.logo {
-  display: block;
-  max-width: 20vw;
-  margin: 0;
-}
-
 /*SEARCH*/
 
 .search input[type="text"] {
   box-sizing: border-box;
-  width: 90vw;
+  width: 200px;
+  height: 25px;
   margin: 0rem 0.625rem 0.3rem 0.813rem;
   background-color: #f2f0f0;
   border-radius: 0.31rem;
@@ -82,18 +62,20 @@ h5 {
   padding: 0rem;
 }
 
-/*NAV*/
-nav,
-#hamburger-menu {
-  display: none;
+/*HEADER AND NAV*/
+
+.logo {
+  display: block;
+  max-width: 200px;
+  margin: 0;
 }
 
 nav a:hover {
   font-weight: bold;
 }
 
-nav li {
-  display: block;
+li {
+  list-style: none;
   text-decoration: underline;
 }
 
@@ -110,14 +92,12 @@ nav a {
   font-weight: bold;
 }
 
-.main-menu > ul {
-  list-style: none;
-  padding: 0;
-}
-
-.main-menu > ul > li {
-  display: inline-block;
-  font-size: 0.7rem;
+.navigation-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 1.6rem;
 }
 
 .icon-container {
@@ -129,7 +109,43 @@ nav a {
   margin-right: 0.438rem;
 }
 
-.hamburger-label {
+/*Hamburger menu*/
+
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger-line {
+  display: block;
+  height: 2.8px;
+  width: 28px;
+  margin: 5.5px auto;
+  background-color: #000000;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-item {
+  margin-left: 1.6rem;
+}
+
+.menu-link {
+  font-size: 1.4rem;
+  color: var(--color-text);
+}
+
+.menu-link:hover,
+.menu-link:active {
+  text-transform: lowercase;
+}
+
+/*.hamburger-menu {
   cursor: pointer;
   color: var(--color-header-footer);
   padding: 0.875rem;
@@ -137,10 +153,12 @@ nav a {
   display: block;
 }
 
-#hamburger-menu:checked ~ nav {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+
+
+/*CONTAINERS*/
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /*REVIEWS*/

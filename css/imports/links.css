@@ -52,7 +52,7 @@
 
 .cta-green:hover,
 .cta-green:active {
-  background: rgb(0, 52, 56, 0.2);
+  background: #fff;
   transition: background-color 0.3s ease-in;
   color: #003438;
 }
