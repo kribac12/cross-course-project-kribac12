@@ -64,19 +64,23 @@ h5 {
 
 /*HEADER AND NAV*/
 
+.main-header {
+  border-bottom: 1px solid #707070;
+}
+
 .logo {
   display: block;
-  max-width: 200px;
+  max-width: 120px;
   margin: 0;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:active nav a:focus {
   font-weight: bold;
 }
 
 li {
   list-style: none;
-  text-decoration: underline;
 }
 
 nav a {
@@ -117,9 +121,9 @@ nav a {
 
 .hamburger-line {
   display: block;
-  height: 2.8px;
+  height: 2px;
   width: 28px;
-  margin: 5.5px auto;
+  margin: 4.5px auto;
   background-color: #000000;
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
@@ -144,16 +148,6 @@ nav a {
 .menu-link:active {
   text-transform: lowercase;
 }
-
-/*.hamburger-menu {
-  cursor: pointer;
-  color: var(--color-header-footer);
-  padding: 0.875rem;
-  font-size: 1.5rem;
-  display: block;
-}
-
-
 
 /*CONTAINERS*/
 .content-container {

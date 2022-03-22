@@ -17,8 +17,8 @@
 
   /*Nav change stuff*/
   .main-menu {
-    position: fixed;
-    left: -100%;
+    position: absolute;
+    left: -120%;
     top: 5rem;
     flex-direction: column;
     background-color: #fff;
@@ -31,11 +31,13 @@
     left: 0;
   }
   .menu-item {
-    margin: 2.5rem 0;
+    margin: 1.5rem 0;
   }
+
   .hamburger-menu {
     display: block;
     cursor: pointer;
+    padding-top: 20px;
   }
   /*change these*/
 
@@ -107,13 +109,6 @@
 /*544*/
 
 @media only screen and (min-width: 544px) {
-  .main-header {
-    display: flex;
-    justify-content: space-between;
-    background: var(--color-header-nav);
-    border-bottom: 1px solid #707070;
-  }
-
   /*jacket page*/
 
   .information {
@@ -124,6 +119,10 @@
 
 /*624*/
 @media only screen and (min-width: 624px) {
+  .logo {
+    max-width: 150px;
+  }
+
   .top-picks {
     display: flex;
     justify-content: space-evenly;

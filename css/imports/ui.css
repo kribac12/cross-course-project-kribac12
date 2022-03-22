@@ -20,7 +20,7 @@ ul.breadcrumbs li a:hover {
   text-decoration: underline;
 }
 
-.active {
+ul.breadcrumbsli a:active {
   font-weight: bold;
 }
 

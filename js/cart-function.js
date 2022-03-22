@@ -1,0 +1,1 @@
+const addToCartButton = document.querySelector("");
