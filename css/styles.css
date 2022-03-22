@@ -24,13 +24,21 @@ h1 {
 
 .women-header h1,
 .about-header h1,
-.contact-header h1 {
+.contact-header h1,
+.jacket-header h1 {
   text-align: center;
 }
 
 h2 {
   text-align: center;
   font-size: 1.3rem;
+}
+
+.h2-left {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin: 0.31rem 0rem;
 }
 
 h5 {
@@ -59,7 +67,7 @@ h5 {
 }
 .search {
   display: block;
-  padding: 0rem;
+  padding-top: 0.65rem;
 }
 
 /*HEADER AND NAV*/
@@ -87,7 +95,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--color-header-footer);
-  padding: 0.625rem;
+  padding-left: 0.625rem;
   display: block;
 }
 
@@ -132,7 +140,8 @@ nav a {
 .main-menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  padding-inline-start: 0px;
+  margin: 0px;
 }
 
 .menu-item {
