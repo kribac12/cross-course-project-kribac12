@@ -113,8 +113,8 @@
   }
 
   .top-picks {
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .featured {
@@ -179,23 +179,12 @@
 
   /*JACKET*/
 
-  .jacket {
-    display: flex;
-    flex-direction: row;
-  }
-  .jacket-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  .women-container {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .jacket-info,
-  .information {
-    margin: 0rem 5rem 0rem 0.6rem;
-  }
-
-  .stars-icon {
-    width: 25%;
+  .top-picks {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   /*Payment*/
@@ -235,5 +224,15 @@
 
   ul.breadcrumbs li a {
     font-size: 0.9em;
+  }
+
+  /*jacket pages*/
+
+  .top-picks {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .top-picks-section {
+    margin: 0rem;
   }
 }

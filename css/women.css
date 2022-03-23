@@ -29,3 +29,7 @@ p {
 .cta-white-small {
   margin: 0.8rem 0rem;
 }
+
+a {
+  text-decoration: none;
+}

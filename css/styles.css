@@ -10,7 +10,8 @@ body {
 /*FONTS AND COPY*/
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Zen Antique", Tahoma, Verdana, sans-serif;
   color: var(--color-text);
   font-weight: bold;
@@ -34,7 +35,7 @@ h2 {
   font-size: 1.3rem;
 }
 
-.h2-left {
+.heading-left {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
   text-align: left;
@@ -189,7 +190,7 @@ nav a {
 
 .top-picks-section,
 .reviews {
-  margin: 0rem 0.625rem;
+  margin: 0rem 0rem 0rem 0.7rem;
 }
 
 .top-picks2 {
@@ -199,8 +200,9 @@ nav a {
 .top-product {
   width: 97%;
 }
-.top-picks h2 {
-  margin-top: 2.5rem;
+.jacket-page h2 {
+  font-size: 1.3rem;
+  margin-top: 2.7rem;
 }
 
 /*PAYMENT*/

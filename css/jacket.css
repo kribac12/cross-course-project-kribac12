@@ -7,7 +7,7 @@ h1 {
 }
 
 .jacket-information {
-  margin: 0rem 0rem 0rem 0.6rem;
+  margin: 0rem 0.7rem 0rem 0.6rem;
 }
 
 .stars-icon {
@@ -32,8 +32,4 @@ p {
 
 ul.a {
   list-style-type: circle;
-}
-
-.information {
-  padding: 40px 0rem;
 }
