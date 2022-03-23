@@ -70,7 +70,7 @@ const jackets = [
     fit: "Long coat",
     price: 49,
     sizes: ["s", "m", "l", "xl", "xxl"],
-    image: "/images/products/yellow-small",
+    image: "/images/products/yellow-small.jpg",
     description: "Long coated and durable rain jacket, wind-and rainproof with a 5,00mm water resistance.",
     materials: "44% organic cotton, 56% recycled polyester",
     details: "Black zipper, Article number 198-0994",

@@ -1,22 +1,13 @@
-.jacket {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .jacket-image img {
   width: 100%;
 }
 
-.jacket-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+h1 {
+  font-size: 1.3rem;
 }
 
-.jacket-info,
-.information {
-  margin: 0rem 5rem 0rem 0.6rem;
+.jacket-information {
+  margin: 0rem 0rem 0rem 0.6rem;
 }
 
 .stars-icon {

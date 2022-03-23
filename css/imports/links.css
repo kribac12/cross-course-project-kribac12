@@ -7,7 +7,6 @@
   display: block;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: bold;
   width: 150px;
 }
@@ -47,6 +46,10 @@
 
 .cta-contact {
   width: 200px;
+}
+
+.jacket-container .cta {
+  margin: 17px 0px;
 }
 
 /*HOVER STATES*/
