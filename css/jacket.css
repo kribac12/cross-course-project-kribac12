@@ -1,0 +1,48 @@
+.jacket {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jacket-image img {
+  width: 100%;
+}
+
+.jacket-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.jacket-info,
+.information {
+  margin: 0rem 5rem 0rem 0.6rem;
+}
+
+.stars-icon {
+  width: 9.4rem;
+}
+
+p {
+  font-size: 0.8em;
+}
+
+.reviews p {
+  margin: 0.8rem 0rem;
+}
+
+.sizes {
+  width: 40vw;
+  border-radius: 0.3rem;
+}
+.choose-size {
+  margin-bottom: 0.8rem;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+.information {
+  padding: 40px 0rem;
+}

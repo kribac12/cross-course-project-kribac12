@@ -1,0 +1,68 @@
+main {
+  color: var(--color-text);
+}
+
+.form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  flex: 100%;
+  flex-direction: column;
+}
+
+.delivery-info input {
+  border: 2px solid orange;
+  border-radius: 0.31rem;
+  margin-bottom: 0.625rem;
+  height: 5vh;
+}
+
+.delivery-info label {
+  margin-bottom: 0.31rem;
+}
+
+.delivery-info {
+  margin: 0rem 0.625rem;
+}
+.delivery-info h1 {
+  text-align: left;
+}
+select {
+  width: 65vw;
+  margin-bottom: 1.25rem;
+  padding: 0.625rem 0rem;
+  font-size: 1em;
+}
+
+.form-wrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  margin: 0.625rem 0rem;
+}
+
+.item-5,
+.item-6 {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+@media only screen and (min-width: 1021px) {
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4 {
+    flex: 50%;
+  }
+}

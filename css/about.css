@@ -1,0 +1,25 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+main h2,
+p {
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+
+.team img {
+  margin: 1.5rem 0rem 1rem 0rem;
+}
+.italics {
+  font-style: italic;
+  text-align: right;
+}
+
+p {
+  margin-left: 0.3rem;
+}
+h2 {
+  padding-top: 0.94rem;
+}

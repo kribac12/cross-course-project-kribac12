@@ -1,0 +1,50 @@
+main {
+  color: var(--color-text);
+}
+
+.shopping-bag h3 {
+  margin-top: 0rem;
+}
+
+.cta-white {
+  margin: 1.25rem 4.063rem 1.25rem;
+}
+
+.checkout {
+  margin-bottom: 1.25rem;
+}
+
+.checkout-image {
+  width: 100%;
+}
+
+.cta-checkout2 {
+  display: none;
+}
+
+.jacket-checkout,
+.bag-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summary,
+.bag-list {
+  margin: 1rem 0rem;
+}
+.summary-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary h3 {
+  text-transform: uppercase;
+}
+
+.checkout p,
+h1,
+h3,
+h5 {
+  margin: 0rem 0.625rem 0rem 0.625rem;
+}

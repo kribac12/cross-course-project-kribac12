@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="Fill in your information and you will have your beautiful Rainydays jacket(s) in no time">
+    <title>Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/checkout-delivery.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6504b123cc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="content-container">
+      <header class="main-header">
+        <nav class="navigation-bar">
+          <div class="hamburger-menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <p class="hamburger-para">Menu</p>
+          </div>
+          <div>
+            <a href="index.html"> <img src="/images/Rainydays-logo.jpg" class="logo" alt="Rainydays logo and link to homepage" /></a>
+          </div>
+          <ul class="main-menu">
+            <li class="menu-item"><a href="women.html" class="nav-link">women</a></li>
+            <li class="menu-item"><a href="women.html" class="nav-link">men</a></li>
+            <li class="menu-item"><a href="women.html" class="nav-link">bestsellers</a></li>
+            <li class="menu-item"><a href="women.html" class="nav-link">collection</a></li>
+            <li class="menu-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="menu-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+          <div class="icon-container">
+            <a href="jacket.html"><img src="/icons/icon-bag.svg" alt="bag-icon" class="icon" /></a>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Search.." />
+          </div>
+        </nav>
+      </header>
+       <main class="delivery">
+            <section class="breadcrumbs-container">
+            <ul class="breadcrumbs">
+                <li><a href="checkout-bag.html">1.Bag</a></li>
+                <li class="active"><a href="checkout-delivery.html">2.Delivery</a></li>
+                <li><a href="#">3.Payment</a></li>
+                <li><a href="#">4.Complete</a></li>
+            </ul>
+        </section>
+       <header class="delivery-header">
+            <h1>2.Delivery</h1>
+          </header>
+            <section class="delivery-info">
+            <h2>Shipping</h2>
+            <form method="POST">
+                <section class="form-wrapper">
+                        <label for="name" class="item-1">First name</label>
+                        <input type="text" class="item-1" id="name" name="name">
+                        <label for="lastname" class="item-2">Last name</label>
+                        <input type="text" class="item-2" id="lastname" name="lastname"> 
+                        <label for="address" class="item-3">Address</label>
+                        <input type="text" class="item-3" id="address" name="address">
+                        <label for="city" class="item-4">City</label>
+                        <input type="text" class="item-4" id="city" name="city">
+                </section>
+            </form>
+        <section class="delivery-options">
+            <h2>Delivery options</h2>
+                <select name="delivery" id="delivery">
+                <option value="standard">Standard: 5.64$ (2-4 days)</option>
+                <option value="express">Express: 11.50$ (1-2 days)</option>
+                </select>
+        </section>
+        <section class="contact-details">
+            <h2>Contact details</h2>
+            <form method="POST">
+                <section class="form-wrapper2">
+                    <label for="email" class="item-1">E-mail</label>
+                    <input type="email" class="item-1" id="email" name="email"> 
+                    <label for="phone" class="item-2">Telephone number</label>
+                    <input type="tel" class="item-2" id="phone" name="phone"> 
+                </section>
+                <section class="checkboxes">
+                <input type="checkbox" class="item-5" name="age" id="age"> 
+                <label for="age">I am 16 years or older.</label>
+                <input type="checkbox" class="item-6" name="email-updates" id="email-updates"> 
+                <label for="email-updates">Sign up for email updates.</label>
+                </section>
+        </section>
+        <a href="checkout-payment.html" class="cta cta-white">Proceed to payment</a>
+    </form> 
+        </section>
+        <section class="pre-footer">
+          <div class="delivery-icon">
+            <img src="/icons/car-icon.png" alt="Delivery 1-4 days" />
+            <p>1-4 days</p>
+          </div>
+          <div class="sustainable-icon">
+            <img src="/icons/leaf-icon.png" alt="Sustainable materials" />
+            <p>Sustainable materials</p>
+          </div>
+          <div class="return-icon">
+            <img src="/icons/package-icon.png" alt="Return easily" />
+            <p>Return easily</p>
+          </div>
+        </section>
+       </main>
+       <section class="footer-container">
+        <div class="footer">
+          <div class="footer-heading">
+            <h2>Products</h2>
+            <a href="women.html">Women</a>
+            <a href="women.html">Men</a>
+            <a href="women.html">Collection</a>
+            <a href="women.html">Bestsellers</a>
+          </div>
+          <div class="footer-heading">
+            <h2>Support</h2>
+            <a href="contact.html">Contact us</a>
+          </div>
+          <div class="footer-heading">
+            <h2>Company</h2>
+            <a href="about.html">About Us</a>
+          </div>
+        </div>
+        <div class="footer-icons">
+          <img src="/icons/Icon-instagram.svg" alt="Instagram icon" />
+          <img src="/icons/Icon-facebook.svg" alt="Facebook icon" />
+          <img src="/icons/Icon-twitter.svg" alt="Twitter icon" />
+        </div>
+      </section>
+    </div>
+    <script src="js/nav.js"></script>
+       </body>
+       </html>
