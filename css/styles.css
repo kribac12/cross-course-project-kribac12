@@ -13,14 +13,15 @@ h1,
 h2,
 h3 {
   font-family: "Zen Antique", Tahoma, Verdana, sans-serif;
-  color: var(--color-text);
   font-weight: bold;
   text-transform: uppercase;
+  color: var(--color-text);
 }
 
 h1 {
   font-size: 1.6rem;
   margin-top: 1.8rem;
+  color: var(--color-text);
 }
 
 .women-header h1,
