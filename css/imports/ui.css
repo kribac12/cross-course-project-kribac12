@@ -17,10 +17,10 @@ ul.breadcrumbs li a {
 }
 ul.breadcrumbs li a:hover {
   color: var(--color-text);
-  font-weight: bold;
+  text-decoration: underline;
 }
 
-ul.breadcrumbs li a:active {
+.active {
   font-weight: bold;
 }
 

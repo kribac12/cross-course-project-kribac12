@@ -114,8 +114,17 @@ nav a {
   padding: 1.2rem 1.6rem;
 }
 
-.icon-container {
+.cart-container {
   display: flex;
+  flex-direction: column;
+}
+
+.jacket-specific {
+  display: flex;
+}
+
+.jacket-amount {
+  position: absolute;
 }
 
 .icon {
