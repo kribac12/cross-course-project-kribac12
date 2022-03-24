@@ -32,7 +32,6 @@ h1 {
 }
 
 h2 {
-  text-align: center;
   font-size: 1.3rem;
 }
 
@@ -121,14 +120,21 @@ nav a {
 
 .jacket-specific {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
 }
 
-.jacket-amount {
+.jacket-amount p {
   position: absolute;
+  color: #ff4417;
+  background: #fff;
+  font-weight: bold;
+  margin-top: -14px;
+  padding: 0;
 }
 
 .icon {
-  width: 0.875rem;
+  width: 1.4rem;
   margin-right: 0.438rem;
 }
 

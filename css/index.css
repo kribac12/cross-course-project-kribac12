@@ -6,6 +6,7 @@ img {
 
 h2 {
   margin: 2.5rem 0rem 0rem 0rem;
+  text-align: center;
 }
 .main-photo {
   margin: 0rem;
@@ -44,7 +45,6 @@ h2 {
 .featured h2,
 .main-categories h2 {
   grid-column: -1/1;
-  text-align: center;
 }
 
 .featured img {

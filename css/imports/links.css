@@ -9,6 +9,7 @@
   text-decoration: none;
   font-weight: bold;
   width: 150px;
+  border: 2px solid transparent;
 }
 
 .cta-white {
@@ -23,7 +24,6 @@
 .cta-green {
   background-color: #003438;
   color: #fff;
-  border-style: none;
   text-transform: uppercase;
   margin-bottom: 2rem;
 }
@@ -52,13 +52,20 @@
   margin: 17px 0px;
 }
 
+.cta-remove {
+  background: red;
+  color: #fff;
+  border: none;
+}
+
 /*HOVER STATES*/
 
 .cta-green:hover,
 .cta-green:active {
   background: #fff;
-  transition: background-color 0.3s ease-in;
+  transition: background-color 0.15s ease-in;
   color: #003438;
+  border: 2px solid #003438;
 }
 
 .cta-white:hover,

@@ -22,26 +22,6 @@ main {
   display: none;
 }
 
-.jacket-checkout,
-.bag-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.summary,
-.bag-list {
-  margin: 1rem 0rem;
-}
-.summary-lists {
-  display: flex;
-  justify-content: space-between;
-}
-
-.summary h3 {
-  text-transform: uppercase;
-}
-
 .checkout p,
 h1,
 h3,

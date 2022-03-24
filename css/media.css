@@ -188,16 +188,6 @@
   }
 
   /*Payment*/
-  .jacket-checkout {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 1rem 0rem;
-  }
-
-  .bag-list {
-    justify-content: space-between;
-  }
 
   .cta-checkout2 {
     display: block;
@@ -206,11 +196,6 @@
 
   .cta-checkout {
     display: none;
-  }
-
-  .summary {
-    border: 1px solid #ffa827;
-    height: 50%;
   }
 
   /*search*/
