@@ -197,6 +197,7 @@
   /*search*/
   .search input[type="text"] {
     width: 400px;
+    height: 32px;
     margin: 0rem 0.625rem 0.3rem 0.813rem;
   }
 }

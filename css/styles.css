@@ -152,6 +152,10 @@ nav a {
   transition: all 0.25s ease-in-out;
 }
 
+.hamburger-para {
+  margin-top: 8px;
+}
+
 .main-menu {
   display: flex;
   align-items: center;
@@ -171,6 +175,15 @@ nav a {
 .menu-link:hover,
 .menu-link:active {
   text-transform: lowercase;
+}
+
+/*JACKETS*/
+
+.sizes {
+  width: 200px;
+  height: 25px;
+  margin-top: 8px;
+  border-radius: 0.3rem;
 }
 
 /*CONTAINERS*/

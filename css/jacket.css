@@ -23,7 +23,9 @@ p {
 }
 
 .sizes {
-  width: 40vw;
+  width: 200px;
+  height: 25px;
+  margin-top: 8px;
   border-radius: 0.3rem;
 }
 .choose-size {
