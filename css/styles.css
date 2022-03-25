@@ -61,13 +61,13 @@ h5 {
   box-sizing: border-box;
   width: 200px;
   height: 25px;
-  margin: 0rem 0.625rem 0.3rem 0.813rem;
   background-color: #f2f0f0;
   border-radius: 0.31rem;
   border: 1px solid darkgray;
 }
 .search {
-  display: block;
+  display: flex;
+  flex: 0 0 90%;
   padding-top: 0.65rem;
 }
 
@@ -83,11 +83,9 @@ h5 {
   margin: 0;
 }
 
-nav a:hover,
-nav a:active nav a:focus {
-  font-weight: bold;
+nav a:hover {
+  text-decoration: underline;
 }
-
 li {
   list-style: none;
 }
@@ -129,7 +127,7 @@ nav a {
   color: #ff4417;
   background: #fff;
   font-weight: bold;
-  margin-top: -14px;
+  margin: -41px 0px -10px 20px;
   padding: 0;
 }
 

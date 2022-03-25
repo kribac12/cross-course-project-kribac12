@@ -6,20 +6,12 @@ main {
   margin-top: 0rem;
 }
 
-.cta-white {
-  margin: 1.25rem 4.063rem 1.25rem;
-}
-
 .checkout {
   margin-bottom: 1.25rem;
 }
 
 .checkout-image {
   width: 100%;
-}
-
-.cta-checkout2 {
-  display: none;
 }
 
 .checkout p,

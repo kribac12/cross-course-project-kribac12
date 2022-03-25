@@ -194,13 +194,10 @@
     margin: 0.5rem 0rem 0rem 0.5rem;
   }
 
-  .cta-checkout {
-    display: none;
-  }
-
   /*search*/
   .search input[type="text"] {
     width: 400px;
+    margin: 0rem 0.625rem 0.3rem 0.813rem;
   }
 }
 
