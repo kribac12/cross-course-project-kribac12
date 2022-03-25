@@ -56,6 +56,9 @@
   background: red;
   color: #fff;
   border: none;
+  width: 80px;
+  padding: 0.4rem 0rem;
+  margin-top: 0.6rem;
 }
 
 /*HOVER STATES*/

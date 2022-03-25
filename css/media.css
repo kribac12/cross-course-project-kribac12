@@ -133,16 +133,26 @@
   .jacket-container h1 {
     margin-top: 0;
   }
+
+  .cta-remove {
+    width: 130px;
+    padding: 0.7rem 0.5rem;
+  }
+
+  .jacket-specific h3,
+  .jacket-specific p {
+    font-size: 1.2rem;
+  }
+
+  .popup {
+    margin: -10px 0px 0px 300px;
+    border: 1px solid #003438;
+  }
 }
 
 /*769*/
 
 @media only screen and (min-width: 769px) {
-  /*global*/
-  h1 {
-    font-size: 1.4em;
-  }
-
   /*homepage*/
 
   .main-running {
@@ -185,6 +195,10 @@
 
   .top-picks {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .jacket-specific {
+    margin-right: 200px;
   }
 
   /*Payment*/

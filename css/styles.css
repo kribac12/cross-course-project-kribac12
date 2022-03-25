@@ -111,17 +111,6 @@ nav a {
   padding: 1.2rem 1.6rem;
 }
 
-.cart-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.jacket-specific {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2.5rem;
-}
-
 .jacket-amount p {
   position: absolute;
   color: #ff4417;
@@ -177,13 +166,18 @@ nav a {
   text-transform: lowercase;
 }
 
-/*JACKETS*/
+/*JACKETS AND CART*/
 
 .sizes {
   width: 200px;
   height: 25px;
   margin-top: 8px;
   border-radius: 0.3rem;
+}
+
+.jacket-image img,
+.jacket-specific-image img {
+  width: 100%;
 }
 
 /*CONTAINERS*/

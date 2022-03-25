@@ -2,21 +2,33 @@ main {
   color: var(--color-text);
 }
 
-.shopping-bag h3 {
-  margin-top: 0rem;
-}
-
 .checkout {
   margin-bottom: 1.25rem;
 }
 
-.checkout-image {
-  width: 100%;
-}
-
 .checkout p,
 h1,
-h3,
-h5 {
-  margin: 0rem 0.625rem 0rem 0.625rem;
+h3 {
+  margin: 0.3rem 0.625rem 0rem 0.625rem;
+}
+
+.jacket-specific {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.jacket-specific h3,
+.jacket-specific p {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jacket-checkout {
+  margin: 2rem 0.3rem 0.3rem 0.3rem;
 }

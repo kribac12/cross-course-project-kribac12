@@ -5,6 +5,8 @@ function addJacketCounter() {
 
   if (jacketCounter) {
     jacketAmount.textContent = jacketCounter;
+  } else {
+    jacketAmount.textContent = "";
   }
 }
 
