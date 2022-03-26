@@ -67,15 +67,21 @@
               </label>
             </div>
             <div>
-              <label>
-                <p>Subject (minimum 3 characters)</p>
-                <div class="contactFormError" id="subjectError">Please include a minimum of 3 characters in your message.</div>
-                <input name="subject" class="form-input" id="subject" placeholder="Subject" />
-              </label>
+              <label for="subject">Please select subject</label>
+              <select name="subject" id="subject">
+                <option value="discount-question">Discounts and campaigns</option>
+                <option value="payment-question">Order and payment</option>
+                <option value="delivery-question">Delivery</option>
+                <option value="returns-question">Returns</option>
+                <option value="refund-question">Refund</option>
+                <option value="complaint">Complaint</option>
+                <option value="jacket-info">Jacket information</option>
+                <option value="other">Other subjects</option>
+              </select>
             </div>
             <div>
               <label>
-                <p>Message (minimum 20 characters)</p>
+                <p>Message (minimum 15 characters)</p>
                 <div class="contactFormError" id="messageError">Please include a minimum of 20 characters in your message.</div>
                 <textarea name="message" id="message" placeholder="Your message"></textarea>
               </label>

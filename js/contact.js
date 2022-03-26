@@ -11,9 +11,6 @@ const fullNameError = document.querySelector("#fullNameError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 
-const subject = document.querySelector("#subject");
-const subjectError = document.querySelector("#subjectError");
-
 const message = document.querySelector("#message");
 const messageError = document.querySelector("#messageError");
 
@@ -26,13 +23,7 @@ function validateForm(event) {
   } else {
     fullNameError.style.display = "block";
   }
-
-  if (checkLength(subject.value, 3) === true) {
-    subjectError.style.display = "none";
-  } else {
-    subjectError.style.display = "block";
-  }
-  if (checkLength(message.value, 20) === true) {
+  if (checkLength(message.value, 15) === true) {
     messageError.style.display = "none";
   } else {
     messageError.style.display = "block";
@@ -45,7 +36,7 @@ function validateForm(event) {
   }
 
   //Success message for message sent, disabling the button
-  if (checkLength(fullName.value, 3) && checkLength(subject.value, 3) && checkLength(message.value, 20) && validateEmail(email.value)) {
+  if (checkLength(fullName.value, 3) && checkLength(message.value, 15) && validateEmail(email.value)) {
     successMessage.style.display = "block";
     form.reset();
   }

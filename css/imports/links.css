@@ -61,6 +61,10 @@
   margin-top: 0.6rem;
 }
 
+.cta-popup {
+  width: 100px;
+}
+
 /*HOVER STATES*/
 
 .cta-green:hover,

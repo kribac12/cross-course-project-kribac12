@@ -39,10 +39,10 @@ const popUp = document.querySelector(".popup");
 
 function successPopup() {
   try {
-    jacketContainer.innerHTML += `<div class="popup"><h2>Jacket added to bag!</h2><div class="jacket-image"><img src="${jacket.image}" alt=${jacket.name}/></div> <div class="jacket-information">
+    jacketContainer.innerHTML += `<div class="popup"><h3>Jacket added to bag!</h3><div class="jacket-image"><img src="${jacket.image}" alt=${jacket.name}/></div> <div class="jacket-information">
     <p>${jacket.name}</p><p class="orange-price">${jacket.price}$</p>
-    <a class="cta cta-white" href="index.html">Shop more</a>
-    <a class="cta cta-white" href="checkout-bag.html">Go to cart</a>
+    <a class="cta cta-white cta-popup" href="index.html">Shop more</a>
+    <a class="cta cta-white cta-popup" href="checkout-bag.html">Go to cart</a>
     </div>
     `;
   } catch (error) {

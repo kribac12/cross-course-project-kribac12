@@ -24,12 +24,26 @@ ul.a {
 
 .popup {
   background: #fff;
-  padding: 0rem 0.3rem 24rem 0.3rem;
-  height: 200px;
-  width: 300px;
+  padding: 0.5rem 1rem 25rem 1rem;
+  border: 3px solid #ffa800;
+  height: 150px;
+  width: 250px;
   position: absolute;
   margin: -300px 0px 0px 4px;
-  border: 1px solid #003438;
+  -moz-box-shadow: 0.14rem 0.14rem 0.9rem #ccc;
+  -webkit-box-shadow: 0.14rem 0.14rem 0.9rem #ccc;
+}
+
+.popup,
+.popup > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup img {
+  width: 200px;
+  height: auto;
 }
 
 .popup h2 {
