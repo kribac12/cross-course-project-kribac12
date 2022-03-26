@@ -27,12 +27,12 @@ function validateForm(event) {
     fullNameError.style.display = "block";
   }
 
-  if (checkLength(subject.value, 8) === true) {
+  if (checkLength(subject.value, 3) === true) {
     subjectError.style.display = "none";
   } else {
     subjectError.style.display = "block";
   }
-  if (checkLength(message.value, 30) === true) {
+  if (checkLength(message.value, 20) === true) {
     messageError.style.display = "none";
   } else {
     messageError.style.display = "block";
@@ -45,7 +45,7 @@ function validateForm(event) {
   }
 
   //Success message for message sent, disabling the button
-  if (checkLength(fullName.value, 3) && checkLength(subject.value, 8) && checkLength(message.value, 30) && validateEmail(email.value)) {
+  if (checkLength(fullName.value, 3) && checkLength(subject.value, 3) && checkLength(message.value, 20) && validateEmail(email.value)) {
     successMessage.style.display = "block";
     form.reset();
   }

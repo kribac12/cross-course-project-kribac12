@@ -35,10 +35,15 @@ function addJacket() {
   localStorage.setItem("jacketsAddedToCart", JSON.stringify(cartArray));
 }
 
+const popUp = document.querySelector(".popup");
+
 function successPopup() {
   try {
     jacketContainer.innerHTML += `<div class="popup"><h2>Jacket added to bag!</h2><div class="jacket-image"><img src="${jacket.image}" alt=${jacket.name}/></div> <div class="jacket-information">
-    <p>${jacket.name}</p><p class="orange-price">${jacket.price}$</p><a class="cta cta-white" href="index.html">Shop more</a><a class="cta cta-white href="checkout-bag.html">Go to cart</a></div>
+    <p>${jacket.name}</p><p class="orange-price">${jacket.price}$</p>
+    <a class="cta cta-white" href="index.html">Shop more</a>
+    <a class="cta cta-white" href="checkout-bag.html">Go to cart</a>
+    </div>
     `;
   } catch (error) {
     jacketContainer.innerHTML += alert("Jacket was not, try again");
