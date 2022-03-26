@@ -46,6 +46,6 @@ function successPopup() {
     </div>
     `;
   } catch (error) {
-    jacketContainer.innerHTML += alert("Jacket was not, try again");
+    jacketContainer.innerHTML += alert("Jacket was not added, try again");
   }
 }
