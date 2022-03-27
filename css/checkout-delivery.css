@@ -2,25 +2,22 @@ main {
   color: var(--color-text);
 }
 
-.form-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: left;
+h1 {
+  margin: 0.3rem 0.625rem 0rem 0.625rem;
 }
 
-.item-1,
-.item-2,
-.item-3,
-.item-4 {
-  flex: 100%;
-  flex-direction: column;
+.formContainer {
+  margin: 0.3rem 0.3rem 0.3rem 0rem;
+  padding: 0.5rem;
 }
 
-.delivery-info input {
+.shipping-info input,
+select {
   border: 2px solid orange;
   border-radius: 0.31rem;
-  margin-bottom: 0.625rem;
-  height: 5vh;
+  height: 6vh;
+  width: 65vw;
+  font-size: 1em;
 }
 
 .delivery-info label {
@@ -30,14 +27,30 @@ main {
 .delivery-info {
   margin: 0rem 0.625rem;
 }
+
 .delivery-info h1 {
   text-align: left;
 }
-select {
-  width: 65vw;
-  margin-bottom: 1.25rem;
-  padding: 0.625rem 0rem;
-  font-size: 1em;
+
+.payment-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-success {
+  display: none;
+}
+
+div .payment-info > div,
+div .email-update-checkbox {
+  margin-bottom: 1.5rem;
+  font-size: 1.1em;
+}
+
+.checkoutForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .form-wrapper2 {
@@ -50,19 +63,4 @@ select {
   display: grid;
   grid-template-columns: 1fr 8fr;
   margin: 0.625rem 0rem;
-}
-
-.item-5,
-.item-6 {
-  width: 1.6rem;
-  height: 1.6rem;
-}
-
-@media only screen and (min-width: 1021px) {
-  .item-1,
-  .item-2,
-  .item-3,
-  .item-4 {
-    flex: 50%;
-  }
 }

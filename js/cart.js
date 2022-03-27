@@ -15,7 +15,7 @@ function addJackets() {
 
   for (let i = 0; i < cartJackets.length; i++) {
     cartContainer.innerHTML += `<div class= "jacket-specific"><div class="jacket-specific-image">
-        <img src="${cartJackets[i].image}"/></div><div class="jacket-specific-info"><h3>${cartJackets[i].name}</h3>
+        <img src="${cartJackets[i].image}" alt="${cartJackets[i].name}"/></div><div class="jacket-specific-info"><h3>${cartJackets[i].name}</h3>
         <p class="orange-price">Price: ${cartJackets[i].price}$</p></div><div><button class="cta cta-remove" type="button">Remove</button></div>`;
   }
 }

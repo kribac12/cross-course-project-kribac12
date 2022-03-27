@@ -8,7 +8,7 @@ function showJacket() {
   try {
     document.title = "";
     document.title = `${jacket.name}`;
-    jacketContainer.innerHTML += `<div class="jacket-image"><img src="${jacket.image}" alt=${jacket.name}/></div> <div class="jacket-information">
+    jacketContainer.innerHTML += `<div class="jacket-image"><img src="${jacket.image}" alt="${jacket.name}"/></div> <div class="jacket-information">
 <h1>${jacket.name}</h1><p class="orange-price">${jacket.price}$</p><p>Description: ${jacket.description}</p><p>Materials: ${jacket.materials}</p><p>Details: ${jacket.details}</p> 
 <label for="sizes">Choose size</label>
 <select name="sizes" id="sizes" class="sizes">

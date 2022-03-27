@@ -1,6 +1,6 @@
-/*Got some help from Marius Solheim, and was 
-also inspired by this https://www.youtube.com/watch?v=YeFzkC2awTM and 
-this https://vimeo.com/457504978/726aababe6 */
+/*Got some help from Marius Solheim, fellow students, and was 
+also inspired by this https://www.youtube.com/watch?v=YeFzkC2awTM,  
+this https://vimeo.com/457504978/726aababe6 and https://codepen.io/chrisachinga/pen/MWwrZLJ*/
 
 const addToCartButton = document.querySelector(".add-to-cart-button");
 

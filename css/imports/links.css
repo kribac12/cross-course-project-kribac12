@@ -53,7 +53,8 @@
 }
 
 .cta-remove {
-  background: red;
+  display: none;
+  background: #ed0010;
   color: #fff;
   border: none;
   width: 80px;

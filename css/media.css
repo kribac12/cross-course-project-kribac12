@@ -213,6 +213,13 @@
     margin: 0.5rem 0rem 0rem 0.5rem;
   }
 
+  .shipping-info input,
+  .shipping-info select {
+    height: 6vh;
+    width: 40vw;
+    font-size: 1.2em;
+  }
+
   /*search*/
   .search input[type="text"] {
     width: 400px;
