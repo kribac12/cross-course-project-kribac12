@@ -15,16 +15,16 @@
     margin-top: 0.625rem;
   }
 
-  /*Nav change stuff*/
+  /*Nav*/
   .main-menu {
     position: absolute;
-    left: -120%;
-    top: 5rem;
+    left: -125%;
+    top: 5.3rem;
     flex-direction: column;
     background-color: #fff;
     width: 100%;
     text-align: center;
-    transition: 0.3s;
+    transition: 0.25s;
   }
 
   .main-menu.active {
@@ -37,9 +37,8 @@
   .hamburger-menu {
     display: block;
     cursor: pointer;
-    padding-top: 20px;
+    padding-top: 1.4rem;
   }
-  /*change these*/
 
   .hamburger-menu.active .hamburger-line:nth-child(2) {
     opacity: 0;
