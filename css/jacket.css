@@ -24,25 +24,29 @@ ul.a {
 
 .popup {
   background: #fff;
-  padding: 0.5rem 1rem 25rem 1rem;
+  padding: 1rem 1rem 22rem 1rem;
   border: 3px solid #ffa800;
-  height: 150px;
+  height: 100px;
   width: 250px;
   position: absolute;
-  margin: -300px 0px 0px 4px;
+  margin: -420px 0px 0px 15px;
   -moz-box-shadow: 0.14rem 0.14rem 0.9rem #ccc;
   -webkit-box-shadow: 0.14rem 0.14rem 0.9rem #ccc;
 }
 
-.popup,
-.popup > * {
+.popup {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+.jacket-information p {
+  font-weight: bold;
 }
 
 .popup img {
-  width: 200px;
+  width: 150px;
   height: auto;
 }
 
