@@ -55,6 +55,10 @@ h5 {
   text-align: center;
 }
 
+label {
+  font-size: 1.1rem;
+}
+
 /*SEARCH*/
 
 .search input[type="text"] {
@@ -170,7 +174,7 @@ nav a {
 
 .sizes {
   width: 200px;
-  height: 25px;
+  height: 2.3rem;
   margin-top: 8px;
   border-radius: 0.3rem;
 }
@@ -211,7 +215,7 @@ nav a {
 
 .top-picks-section,
 .reviews {
-  margin: 0rem 0rem 0rem 0.7rem;
+  margin: 3rem 0rem 3rem 0.4rem;
 }
 
 .top-picks2 {
