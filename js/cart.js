@@ -11,12 +11,12 @@ function addJackets() {
   totalJackets.innerHTML = `<h2 class="total-jackets-heading">Jackets in cart (${cartJackets.length})</h2>`;
 
   cartContainer.innerHTML = "";
+  ctaCheckout.innerHTML += `<a href="checkout-delivery.html" class="cta cta-white">Checkout</a>`;
 
   for (let i = 0; i < cartJackets.length; i++) {
     cartContainer.innerHTML += `<div class= "jacket-specific"><div class="jacket-specific-image">
         <img src="${cartJackets[i].image}"/></div><div class="jacket-specific-info"><h3>${cartJackets[i].name}</h3>
         <p class="orange-price">Price: ${cartJackets[i].price}$</p></div><div><button class="cta cta-remove" type="button">Remove</button></div>`;
-    ctaCheckout.innerHTML += `<a href="checkout-delivery.html" class="cta cta-white">Checkout</a>`;
   }
 }
 

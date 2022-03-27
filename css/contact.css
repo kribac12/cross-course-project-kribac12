@@ -3,7 +3,7 @@ textarea,
 select {
   border: 2px solid #ffa800;
   border-radius: 0.31rem;
-  margin: 0.625rem 0.625rem 0.625rem 0rem;
+  margin: 0.3rem 0.3rem 0.3rem 0rem;
   height: 80%;
   width: 90%;
   padding: 1rem;
@@ -39,7 +39,6 @@ textarea {
 
 .formContainer {
   max-width: 95%;
-  margin: 0.625rem;
   text-align: left;
 }
 

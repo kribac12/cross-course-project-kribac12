@@ -152,6 +152,12 @@
 /*769*/
 
 @media only screen and (min-width: 769px) {
+  /*fonts*/
+
+  p {
+    font-size: 18px;
+  }
+
   /*homepage*/
 
   .main-running {
