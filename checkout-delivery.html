@@ -40,13 +40,13 @@
         </nav>
       </header>
       <main class="delivery">
-        <section class="breadcrumbs-container">
+        <div class="breadcrumbs-container">
           <ul class="breadcrumbs">
             <li><a href="checkout-bag.html">1.Bag</a></li>
             <li class="active"><a href="checkout-delivery.html">2.Delivery and payment</a></li>
             <li><a href="#">3.Complete</a></li>
           </ul>
-        </section>
+        </div>
         <header class="delivery-header">
           <h1>2.Delivery</h1>
         </header>
@@ -58,21 +58,21 @@
                 <label>
                   <p>Full name</p>
                   <div class="checkoutFormError" id="fullNameError">Please enter your name.</div>
-                  <input type="name" name="name" class="form-input" id="fullName" placeholder="Full name" />
+                  <input name="name" class="form-input" id="fullName" />
                 </label>
               </div>
               <div>
                 <label>
                   <p>Address</p>
                   <div class="checkoutFormError" id="addressError">Please enter your address.</div>
-                  <input type="address" name="address" class="form-input" id="address" placeholder="Address" />
+                  <input name="address" class="form-input" id="address" placeholder="Address" />
                 </label>
               </div>
               <div>
                 <label>
                   <p>City</p>
                   <div class="checkoutFormError" id="cityError">Please enter name of your city.</div>
-                  <input type="city" name="city" class="form-input" id="city" placeholder="City" />
+                  <input name="city" class="form-input" id="city" />
                 </label>
               </div>
             </div>
@@ -126,7 +126,7 @@
           </form>
         </section>
 
-        <section class="pre-footer">
+        <div class="pre-footer">
           <div class="delivery-icon">
             <img src="/icons/car-icon.png" alt="Delivery 1-4 days" />
             <p>1-4 days</p>
@@ -139,7 +139,7 @@
             <img src="/icons/package-icon.png" alt="Return easily" />
             <p>Return easily</p>
           </div>
-        </section>
+        </div>
       </main>
       <section class="footer-container">
         <div class="footer">
