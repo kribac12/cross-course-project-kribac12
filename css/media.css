@@ -124,15 +124,6 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .jacket-container {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .jacket-container h1 {
-    margin-top: 0;
-  }
-
   .cta-remove {
     width: 130px;
     padding: 0.7rem 0.5rem;
@@ -210,7 +201,7 @@
 
   /*JACKET*/
 
-  .women-container {
+  .jacket-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 

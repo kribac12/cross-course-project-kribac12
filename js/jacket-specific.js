@@ -12,6 +12,7 @@ console.log(siteUrl);
 const url = siteUrl + id;
 
 console.log(url);
+("");
 
 const jacketContainer = document.querySelector(".jacket-container");
 
@@ -39,9 +40,7 @@ async function showJacket() {
   <option value="XXL">XXL</option>
 </select>
 <button data-product=${product.id}  class=add-to-cart-button>Add to cart</button></div>`;
-  } catch (error) {
-    jacketContainer.innerHTML = alert("Could not find the jacket, try again");
-  }
+  } catch (error) {}
 }
 
 showJacket();

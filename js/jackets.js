@@ -1,5 +1,4 @@
-const container = document.querySelector(".women-container");
-const errorContainer = document.querySelector(".women-container");
+const container = document.querySelector(".jacket-container");
 
 const baseUrl =
   "https://greenapplesfanatic.org/wp-json/wc/store/products?consumer_key=ck_5ae8f53566ed02cd687d5609dd9a871b26d72cd3&consumer_secret=cs_01556086b5754d9cd894dce182a1e222887e6700";
@@ -10,8 +9,6 @@ async function getProducts() {
     const products = await response.json();
 
     console.log(products);
-
-    container.innerHTML = "";
 
     for (let i = 0; i < products.length; i++) {
       const productImg = products[i].images;
@@ -24,7 +21,6 @@ async function getProducts() {
     }
   } catch (error) {
     console.log(error);
-    errorContainer.innerHTML = error("Unfortunately, there was an error with the API:" + error);
   }
 }
 
