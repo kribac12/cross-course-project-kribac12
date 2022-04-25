@@ -2,7 +2,7 @@ const container = document.querySelector(".women-container");
 const errorContainer = document.querySelector(".women-container");
 
 const baseUrl =
-  "http://greenapplesfanatic.org/wp-json/wc/store/products?consumer_key=ck_5ae8f53566ed02cd687d5609dd9a871b26d72cd3&consumer_secret=cs_01556086b5754d9cd894dce182a1e222887e6700";
+  "https://greenapplesfanatic.org/wp-json/wc/store/products?consumer_key=ck_5ae8f53566ed02cd687d5609dd9a871b26d72cd3&consumer_secret=cs_01556086b5754d9cd894dce182a1e222887e6700";
 
 async function getProducts() {
   try {
