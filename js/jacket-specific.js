@@ -1,4 +1,3 @@
-const jacketContainer = document.querySelector(".jacket-container");
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
@@ -10,20 +9,21 @@ const url = siteUrl + id;
 
 console.log(url);
 
+const jacketContainer = document.querySelector(".jacket-container");
+
 async function showJacket() {
   try {
     const response = await fetch(url);
     const results = await response.json();
-    const products = results[0];
+    const product = results;
+
     console.log(products);
 
     document.title = "";
-    document.title = `${products.name}`;
+    document.title = `${product.name}`;
 
-    const productImg = products[i].images;
-
-    jacketContainer.innerHTML += `<div class="jacket-image"><img src="${productImg[0].src}" alt="${products.name}"/></div> <div class="jacket-information">
-<h1>${products.name}</h1><p class="orange-price">$${products[i].prices.price}</p><p>Description: ${products.description}</p><p>Materials: 60% cotton, 40% polyester</p>
+    jacketContainer.innerHTML += `<div class="jacket-image"><img src="${product.images[0].src}" alt="${product.name}"/></div> <div class="jacket-information">
+<h1>${product.name}</h1><p class="orange-price">$${product.prices.price}</p><p>Description: ${product.description}</p><p>Materials: 60% cotton, 40% polyester</p>
 <label for="sizes">Choose size</label>
 <select name="sizes" id="sizes" class="sizes">
   <option value="XXS">XSS</option>
@@ -34,7 +34,7 @@ async function showJacket() {
   <option value="XL">XL</option>
   <option value="XXL">XXL</option>
 </select>
-<button class="cta cta-white add-to-cart-button" data-product=${products.id}>Add to cart</button></div>`;
+<button class="cta cta-white add-to-cart-button" data-product=${product.id}>Add to cart</button></div>`;
   } catch (error) {
     jacketContainer.innerHTML = alert("Could not find the jacket, try again");
   }

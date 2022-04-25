@@ -24,7 +24,7 @@ async function getProducts() {
     }
   } catch (error) {
     console.log(error);
-    errorContainer.innerHTML = alert("Unfortunately, there was an error with the API: " + error);
+    errorContainer.innerHTML = error("Unfortunately, there was an error with the API:" + error);
   }
 }
 
