@@ -2,8 +2,12 @@ const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
 
+console.log(id);
+
 const siteUrl =
   "https://greenapplesfanatic.org/wp-json/wc/store/products?consumer_key=ck_5ae8f53566ed02cd687d5609dd9a871b26d72cd3&consumer_secret=cs_01556086b5754d9cd894dce182a1e222887e6700";
+
+console.log(siteUrl);
 
 const url = siteUrl + id;
 
@@ -34,7 +38,7 @@ async function showJacket() {
   <option value="XL">XL</option>
   <option value="XXL">XXL</option>
 </select>
-<button class="cta cta-white add-to-cart-button" data-product=${product.id}>Add to cart</button></div>`;
+<button data-product=${product.id}  class=add-to-cart-button>Add to cart</button></div>`;
   } catch (error) {
     jacketContainer.innerHTML = alert("Could not find the jacket, try again");
   }
