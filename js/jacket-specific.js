@@ -26,6 +26,8 @@ async function showJacket() {
     document.title = "";
     document.title = `${product.name}`;
 
+    jacketSpecificContainer.classList.remove("loader");
+
     jacketSpecificContainer.innerHTML += `<div class="jacket-image"><img src="${product.images[0].src}" alt="${product.name}"/></div> <div class="jacket-information">
 <h1>${product.name}</h1><p class="orange-price">$${product.prices.price}</p><p>Description: ${product.description}</p><p>Materials: 60% cotton, 40% polyester</p>
 <label for="sizes">Choose size</label>
@@ -39,7 +41,12 @@ async function showJacket() {
   <option value="XXL">XXL</option>
 </select>
 <a href="checkout-bag.html"><button data-product=${product.id}  class="add-to-cart-button">Add to cart</button></a></div>`;
-  } catch (error) {}
+  } catch (error) {
+    console.log(error);
+    jacketSpecificContainer.innerHTML = `Something went wrong when calling the API`;
+  }
 }
 
 showJacket();
+
+//updated code messed with the add-to-cart function, but after discussing with a couple of tutors I decided to focus on the exam for now and get back to this later.

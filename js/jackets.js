@@ -10,6 +10,8 @@ async function getProducts() {
 
     console.log(products);
 
+    container.classList.remove("loader");
+
     for (let i = 0; i < products.length; i++) {
       const productImg = products[i].images;
       container.innerHTML += `<a href="jacket.html?id=${products[i].id}">

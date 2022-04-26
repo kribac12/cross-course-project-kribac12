@@ -190,6 +190,15 @@ nav a {
   margin: 0 auto;
 }
 
+.loader {
+  border: 10px solid #fc542f;
+  border-top: 10px solid #f3f3f3;
+  border-radius: 50%;
+  width: 6.5rem;
+  height: 6.5rem;
+  animation: spin 3s linear infinite;
+}
+
 /*REVIEWS*/
 .review-points {
   display: flex;
