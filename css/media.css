@@ -138,6 +138,15 @@
     margin: -10px 0px 0px 260px;
   }
 
+  .jacket-specific-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .jacket-specific-container h1 {
+    margin-top: 0;
+  }
+
   /*HOVER STATES*/
 
   .cta-green:hover,

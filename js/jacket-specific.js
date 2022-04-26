@@ -14,7 +14,7 @@ const url = siteUrl + id + key;
 
 console.log(url);
 
-const jacketContainer = document.querySelector(".jacket-container");
+const jacketSpecificContainer = document.querySelector(".jacket-specific-container");
 
 async function showJacket() {
   try {
@@ -26,7 +26,7 @@ async function showJacket() {
     document.title = "";
     document.title = `${product.name}`;
 
-    jacketContainer.innerHTML += `<div class="jacket-image"><img src="${product.images[0].src}" alt="${product.name}"/></div> <div class="jacket-information">
+    jacketSpecificContainer.innerHTML += `<div class="jacket-image"><img src="${product.images[0].src}" alt="${product.name}"/></div> <div class="jacket-information">
 <h1>${product.name}</h1><p class="orange-price">$${product.prices.price}</p><p>Description: ${product.description}</p><p>Materials: 60% cotton, 40% polyester</p>
 <label for="sizes">Choose size</label>
 <select name="sizes" id="sizes" class="sizes">
@@ -38,7 +38,7 @@ async function showJacket() {
   <option value="XL">XL</option>
   <option value="XXL">XXL</option>
 </select>
-<button data-product=${product.id}  class=add-to-cart-button>Add to cart</button></div>`;
+<a href="checkout-bag.html"><button data-product=${product.id}  class="add-to-cart-button">Add to cart</button></a></div>`;
   } catch (error) {}
 }
 

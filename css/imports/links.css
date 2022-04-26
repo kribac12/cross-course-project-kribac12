@@ -21,11 +21,12 @@
   border: 4px solid #003438;
 }
 
-.cta-white-view {
+.cta-white-view,
+.add-to-cart-button {
   cursor: pointer;
   background-color: #fff;
   color: #003438;
-  width: 200px;
+  width: 150px;
   text-decoration: none;
   border: 4px solid #003438;
   grid-column: 2;
@@ -33,7 +34,6 @@
   text-align: center;
   display: block;
   border-radius: 0.31rem;
-  width: 100px;
   padding: 0.6rem 1.2rem;
   margin: 0 auto;
   margin-bottom: 0.63em;
