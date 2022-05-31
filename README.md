@@ -2,7 +2,9 @@
 
 ![Rainydays logo](https://github.com/Noroff-FEU-Assignments/cross-course-project-kribac12/blob/main/images/rainydays-logo.jpg?raw=true)
 
-![Rainydays logo](./images/homepage/men.jpg?raw=true)
+![Rainydays logo](main/images/rainydays-logo.jpg?raw=true)
+
+![Rainydays logo](./team-small.jpg?raw=true)
 
 Simple overview of use / purpose of project
 
