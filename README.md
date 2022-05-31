@@ -1,6 +1,6 @@
 ## Project title
 
-![Rainydays logo](/images/rainydays-logo.jpg)
+![Rainydays logo](rainydays-logo.jpg)
 
 Simple overview of use / purpose of project
 
