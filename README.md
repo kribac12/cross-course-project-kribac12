@@ -6,12 +6,9 @@ Rainydays makes rain jackets for active and adventurous people.
 
 ## Description
 
-The project aim is to create a simple to use website selling comfortable and affordable rain jackets to active people.
-
-- Sustainable materials
-- Colorful jackets, mostly red, orange, yellow and blue
-- Affordable prices, no more than 50$ per jacket
-- Mobile first design
+- This was my first project, and my motivation was to learn more about HTML and CSS and create a whole, functioning website
+- I built the website to show how I would sell rain jackets to active and adventurous people, using colorful jackets and images showing active and smiling people.
+- I learned a lot on building a responsive website, on accessibility, styling in terms of colors and typography, and designing a website based on a target group.
 
 ### Planned changes
 
@@ -44,6 +41,7 @@ For your pull request to be reviewed and accepted, the following points must be 
 ### Styleguide
 
 - Use [Prettier](https://prettier.io/) for code formatting
+- Mobile first design
 
 ## Contact
 
