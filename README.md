@@ -1,6 +1,8 @@
-## Rainydays
+# Rainydays
 
 ![Rainydays logo](./rainydays-logo.jpg?raw=true)
+
+![logo] (https://raw.githubusercontent.com/Noroff-FEU-Assignments/cross-course-project-kribac12/main/images/founder.jpg)
 
 Rainydays sells durable rain jackets to active and adventurous people.
 
@@ -12,7 +14,7 @@ The project aim is to create a simple to use website selling comfortable and aff
 - Affordable prices, no more than 50$ per jacket
 - Mobile first design
 
-# Planned changes
+### Planned changes
 
 - Improving the "Add to cart"-function with JS
 
