@@ -14,7 +14,7 @@ The project aim is to create a simple to use website selling comfortable and aff
 
 ### Planned changes
 
-- Improving the "Add to cart"-function with JS
+- Updating the "Add to cart"-function which changed after adding WP REST API
 
 ## Built With
 
@@ -29,12 +29,10 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-- [My LinkedIn page] (https://www.linkedin.com/in/kristine-bache-a033ab173/)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
+- [My LinkedIn page](https://www.linkedin.com/in/kristine-bache-a033ab173/)
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+- Add to cart-function: Was inspired by [Javascript Shopping Cart Tutorial for Beginners](https://www.youtube.com/watch?v=YeFzkC2awTM), [Building a Favorites Page with localStorage](https://vimeo.com/457504978/726aababe6) and [Shopping cart JS](https://codepen.io/chrisachinga/pen/MWwrZLJ).
+
+- Responsive hamburger menu for mobile or smaller devices was inspired by [Let's build a responsive navbar and hamburger menu using HTML, CSS, and Javascript](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci)
