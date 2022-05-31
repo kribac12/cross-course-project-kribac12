@@ -51,6 +51,8 @@ For your pull request to be reviewed and accepted, the following points must be 
 
 ## Acknowledgments
 
-- Add to cart-function was inspired by [Javascript Shopping Cart Tutorial for Beginners](https://www.youtube.com/watch?v=YeFzkC2awTM), [Building a Favorites Page with localStorage](https://vimeo.com/457504978/726aababe6) and [Shopping cart JS](https://codepen.io/chrisachinga/pen/MWwrZLJ).
+- Add to cart-function was inspired by [Javascript Shopping Cart Tutorial for Beginners](https://www.youtube.com/watch?v=YeFzkC2awTM), [Building a Favorites Page with localStorage](https://vimeo.com/457504978/726aababe6) and [Shopping cart JS](https://codepen.io/chrisachinga/pen/MWwrZLJ)
 
 - Responsive hamburger menu for mobile or smaller devices was inspired by [Let's build a responsive navbar and hamburger menu using HTML, CSS, and Javascript](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci)
+
+- Thanks to teachers at Noroff for guidance
