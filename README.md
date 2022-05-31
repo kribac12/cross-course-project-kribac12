@@ -1,6 +1,6 @@
 ## Project title
 
-![Rainydays logo](./images/rainydays-logo.jpg?raw=true)
+![Rainydays logo](https://github.com/Noroff-FEU-Assignments/cross-course-project-kribac12/./images/rainydays-logo.jpg?raw=true)
 
 Simple overview of use / purpose of project
 
