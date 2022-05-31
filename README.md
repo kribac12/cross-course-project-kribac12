@@ -2,7 +2,7 @@
 
 ![Rainydays logo](./rainydays-logo.jpg?raw=true)
 
-![logo] (https://raw.githubusercontent.com/Noroff-FEU-Assignments/cross-course-project-kribac12/main/images/founder.jpg)
+![logo](https://raw.githubusercontent.com/Noroff-FEU-Assignments/cross-course-project-kribac12/main/images/founder.jpg)
 
 Rainydays sells durable rain jackets to active and adventurous people.
 
