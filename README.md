@@ -1,6 +1,6 @@
 # Rainydays
 
-![Rainydays logo](./rainydays-logo.jpg?raw=true)
+![Rainydays logo](/images/rainydays-logo.jpg)
 
 Rainydays makes rain jackets for active and adventurous people.
 
