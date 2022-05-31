@@ -1,25 +1,27 @@
-## Project title
+## Rainydays
 
 ![Rainydays logo](./rainydays-logo.jpg?raw=true)
 
-Simple overview of use / purpose of project
+Rainydays sells durable rain jackets to active and adventurous people.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+The project aim is to create a simple to use website selling comfortable and affordable rain jackets to active people.
 
-You can add some bullet points if you'd like to:
+- Sustainable materials
+- Affordable prices, no more than 50$ per jacket
+- Mobile first design
 
-List item 1
-List item 2
-List item 3
+# Planned changes
+
+- Improving the "Add to cart"-function with JS
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-React.js
-Bootstrap
+- HTML
+- CSS
+- JavaScript
+- Wordpress REST API
 
 ## Getting Started
 
