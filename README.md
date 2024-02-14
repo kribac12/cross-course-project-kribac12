@@ -12,7 +12,7 @@ Rainydays makes rain jackets for active and adventurous people.
 
 ### Planned changes
 
-- Updating the "Add to cart"-function which changed after adding WP REST API
+- Updating the "Add to cart"-function which changed after adding WP REST API.
 
 ## Built With
 
